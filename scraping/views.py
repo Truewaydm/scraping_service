@@ -5,5 +5,6 @@ from .models import Vacancy
 # Create your views here.
 
 def home_view(request):
+    print(request.POST)
     query_set = Vacancy.objects.all()
     return render(request, 'scraping/home.html', {'object_list': query_set})
