@@ -12,9 +12,11 @@ Home
             <small>{{ obj.timestamp|date:"d-m-Y" }}</small></p>
     </div>
 </div>
+{% empty %}
+<h3 class="col-md-2 mx-auto">Unfortunately, your search returned no results.</h3>
 {% endfor %}
 <div class="row">
-    <div class="col-md-2">
+    <div class="col-md-2 mx-auto">
         <form method="get" action="">
             <div class="form-group">
                 {{ form.as_p }}
