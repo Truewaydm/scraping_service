@@ -15,10 +15,7 @@ Home
 {% endfor %}
 
 <form method="get" action="">
-    <label>City:</label><br>
-    <input type="text" name="city"><br>
-    <label>Language:</label><br>
-    <input type="text" name="language"><br>
+    {{ form.as_p }}
     <input type="submit" value="Submit">
 </form>
 
