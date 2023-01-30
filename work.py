@@ -9,19 +9,25 @@ domain: str = 'https://www.work.ua'
 url: str = 'https://www.work.ua/jobs-kyiv-python/'
 work_request = requests.get(url, headers=headers)
 jobs: list = []
+errors: list = []
 if work_request.status_code == 200:
     soup = BS(work_request.content, 'html.parser')
     main_div = soup.find('div', attrs={'id': 'pjax-job-list'})
-    div_list = main_div.find_all('div', attrs={'class': 'job-link'})
-    for div in div_list:
-        title = div.find('h2')
-        href = title.a['href']
-        description = div.a.text
-        company = 'No name'
-        logo = div.find('img')
-        if logo:
-            company = logo['alt']
-
-work_header = codecs.open('work.html', 'w', 'utf-8')
-work_header.write(str(work_request.text))
-work_header.close()
+    if main_div:
+        div_list = main_div.find_all('div', attrs={'class': 'job-link'})
+        for div in div_list:
+            title = div.find('h2')
+            href = title.a['href']
+            description = div.a.text
+            company = 'No name'
+            logo = div.find('img')
+            if logo:
+                company = logo['alt']
+            jobs.append({'title': title.text, 'url': domain + href, 'description': description, 'company': company})
+    else:
+        errors.append({'url': url, 'title': 'div does not exists'})
+else:
+    errors.append({'url': url, 'title': 'Page do not response'})
+work_result = codecs.open('work.text', 'w', 'utf-8')
+work_result.write(str(jobs))
+work_result.close()
