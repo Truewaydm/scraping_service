@@ -3,10 +3,19 @@ import codecs
 import time
 from bs4 import BeautifulSoup as BS
 from selenium import webdriver
+from random import randint
 
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0',
-           'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
-           }
+__all__ = ('work_ua', 'rabota_ua', 'dou_ua', 'djinni_co')
+
+headers = [
+    {'User-Agent': 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0',
+     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'},
+    {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'},
+    {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:53.0) Gecko/20100101 Firefox/53.0',
+     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'}
+]
 
 
 def work_ua(url):
@@ -14,7 +23,7 @@ def work_ua(url):
     errors: list = []
     domain: str = 'https://www.work.ua'
     url: str = 'https://www.work.ua/jobs-kyiv-python/'
-    work_request = requests.get(url, headers=headers)
+    work_request = requests.get(url, headers=headers[randint(0, 2)])
     if work_request.status_code == 200:
         soup = BS(work_request.content, 'html.parser')
         main_div = soup.find('div', attrs={'id': 'pjax-job-list'})
@@ -44,26 +53,24 @@ def rabota_ua(url):
     driver = webdriver.Chrome()
     driver.get(url)
     time.sleep(10)
-    rabota_ua_request = requests.get(url, headers=headers)
+    rabota_ua_request = requests.get(url, headers=headers[randint(0, 2)])
     if rabota_ua_request.status_code == 200:
         soup = BS(driver.page_source, 'html.parser')
-        new_jobs = soup.find('div', attrs={'class': 'santa-typo-h2'})
-        if not new_jobs:
-            main_div = soup.find('div', attrs={'class': 'santa-flex santa-flex-col santa-gap-y-20'})
-            if main_div:
-                div_list = main_div.find_all('div', attrs={'class': 'santa--mb-20 ng-star-inserted santa-min-h-0'})
-                for div in div_list:
-                    title = div.find('h2')
-                    href = div.a['href']
-                    description = div.span.text
-                    company = 'No name'
-                    logo = div.find('img')
-                    if logo:
-                        company = logo['alt']
+        main_div = soup.find('div', attrs={'class': 'santa-flex santa-flex-col santa-gap-y-20'})
+        if main_div:
+            div_list = main_div.find_all('div', attrs={'class': 'santa--mb-20 ng-star-inserted santa-min-h-0'})
+            for div in div_list:
+                title = div.find('h2')
+                href = div.a['href']
+                description = div.span.text
+                company = 'No name'
+                logo = div.find('img')
+                if logo:
+                    company = logo['alt']
                     jobs.append(
                         {'title': title.text, 'url': domain + href, 'description': description, 'company': company})
-            else:
-                errors.append({'url': url, 'title': 'div does not exists'})
+                else:
+                    errors.append({'url': url, 'title': 'div does not exists'})
         else:
             errors.append({'url': url, 'title': 'There are no vacancies for your request yet'})
     else:
@@ -75,7 +82,7 @@ def dou_ua(url):
     jobs: list = []
     errors: list = []
     # url: str = 'https://jobs.dou.ua/vacancies/?category=Python'
-    dou_ua_request = requests.get(url, headers=headers)
+    dou_ua_request = requests.get(url, headers=headers[randint(0, 2)])
     if dou_ua_request.status_code == 200:
         soup = BS(dou_ua_request.content, 'html.parser')
         main_div = soup.find('div', id='vacancyListId')
@@ -103,7 +110,7 @@ def djinni_co(url):
     jobs: list = []
     errors: list = []
     domain: str = 'https://djinni.co'
-    dou_ua_request = requests.get(url, headers=headers)
+    dou_ua_request = requests.get(url, headers=headers[randint(0, 2)])
     if dou_ua_request.status_code == 200:
         soup = BS(dou_ua_request.content, 'html.parser')
         main_ul = soup.find('ul', attrs={'class': 'list-jobs'})
@@ -127,8 +134,8 @@ def djinni_co(url):
 
 
 if __name__ == '__main__':
-    url = 'https://djinni.co/jobs/?primary_keyword=Python'
-    jobs, errors = djinni_co(url)
+    url = 'https://rabota.ua/ua/zapros/python/%D0%BA%D0%B8%D0%B5%D0%B2'
+    jobs, errors = rabota_ua(url)
     work_result = codecs.open('parser_vacancy.json', 'w', 'utf-8')
     work_result.write(str(jobs))
     work_result.close()
