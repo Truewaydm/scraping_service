@@ -22,7 +22,7 @@ def work_ua(url):
     jobs: list = []
     errors: list = []
     domain: str = 'https://www.work.ua'
-    url: str = 'https://www.work.ua/jobs-kyiv-python/'
+    # url: str = 'https://www.work.ua/jobs-kyiv-python/'
     work_request = requests.get(url, headers=headers[randint(0, 2)])
     if work_request.status_code == 200:
         soup = BS(work_request.content, 'html.parser')
