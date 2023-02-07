@@ -48,7 +48,7 @@ def work_ua(url):
 def rabota_ua(url):
     jobs: list = []
     errors: list = []
-    domain: str = 'https://rabota.ua/ua'
+    domain: str = 'https://rabota.ua'
     # url: str = 'https://rabota.ua/ua/zapros/python/%D0%BA%D0%B8%D0%B5%D0%B2'
     driver = webdriver.Chrome()
     driver.get(url)
@@ -81,6 +81,7 @@ def rabota_ua(url):
 def dou_ua(url):
     jobs: list = []
     errors: list = []
+    domain: str = 'https://jobs.dou.ua'
     # url: str = 'https://jobs.dou.ua/vacancies/?category=Python'
     dou_ua_request = requests.get(url, headers=headers[randint(0, 2)])
     if dou_ua_request.status_code == 200:
