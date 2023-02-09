@@ -12,7 +12,7 @@ django.setup()
 from django.db import DatabaseError
 
 from parser import *
-from scraping.models import Vacancy, City, Language
+from scraping.models import Vacancy, City, Language, Errors
 
 parser = (
     (work_ua, 'https://www.work.ua/jobs-kyiv-python/'),
@@ -37,6 +37,8 @@ for job in jobs:
         variable.save()
     except DatabaseError:
         pass
+    if errors:
+        error = Errors(data=errors).save()
 
 # work_result = codecs.open('parser_vacancy.json', 'w', 'utf-8')
 # work_result.write(str(jobs))
