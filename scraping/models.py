@@ -1,4 +1,3 @@
-import jsonfield
 from django.db import models
 
 from scraping.utils import from_cyrillic_to_eng
@@ -59,4 +58,4 @@ class Vacancy(models.Model):
 
 class Errors(models.Model):
     timestamp = models.DateField(auto_now_add=True)
-    data = jsonfield.JSONField()
+    data = models.JSONField()
