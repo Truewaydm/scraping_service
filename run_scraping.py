@@ -1,3 +1,4 @@
+import asyncio
 import codecs
 import os, sys
 
@@ -55,6 +56,11 @@ url_list = get_urls(setting)
 # language = Language.objects.filter(slug='python').first()
 
 jobs, errors = [], []
+loop = asyncio.get_event_loop()
+temp_task = [(func, data.get(key), data['city'], data['language'])
+             for data in url_list
+             for func, key in parser]
+tasks = asyncio.wait([loop.create_task(main(func)) for f in temp_task])
 for data in url_list:
     for func, key in parser:
         url = data['url_data'][key]
