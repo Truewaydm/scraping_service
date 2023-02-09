@@ -1,6 +1,8 @@
 import codecs
 import os, sys
 
+from django.contrib.auth import get_user_model
+
 project = os.path.dirname(os.path.abspath('manage.py'))
 sys.path.append(project)
 os.environ["DJANGO_SETTINGS_MODULE"] = "scraping_service.settings"
@@ -14,6 +16,8 @@ from django.db import DatabaseError
 from parser import *
 from scraping.models import Vacancy, City, Language, Errors
 
+User = get_user_model()
+
 parser = (
     (work_ua, 'https://www.work.ua/jobs-kyiv-python/'),
     (dou_ua, 'https://jobs.dou.ua/vacancies/?category=Python'),
@@ -21,11 +25,19 @@ parser = (
     (rabota_ua, 'https://rabota.ua/ua/zapros/python/%D0%BA%D0%B8%D0%B5%D0%B2')
 )
 
+
+def get_settings():
+    query_set = User.objects.filter(send_email=True).values()
+    settings_list = set((qs['city_id'], qs['language_id']) for qs in query_set)
+    return settings_list
+
+
+get_user_city_id_and_language_id = get_settings()
+
 city = City.objects.filter(slug='kyiv').first()
 language = Language.objects.filter(slug='python').first()
 
 jobs, errors = [], []
-url = []
 for func, url in parser:
     j, e = func(url)
     jobs += j
