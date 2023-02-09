@@ -26,6 +26,8 @@ parser = (
     (rabota_ua, 'rabota_ua')
 )
 
+jobs, errors = [], []
+
 
 def get_settings():
     query_set = User.objects.filter(send_email=True).values()
@@ -49,24 +51,32 @@ def get_urls(settings):
     return urls
 
 
+async def main(value):
+    func, url, city, language = value
+    job, error = await loop.run_in_executor(None, func, url, city, language)
+    errors.extend(error)
+    jobs.extend(job)
+
+
 setting = get_settings()
 url_list = get_urls(setting)
 
 # city = City.objects.filter(slug='kyiv').first()
 # language = Language.objects.filter(slug='python').first()
 
-jobs, errors = [], []
 loop = asyncio.get_event_loop()
-temp_task = [(func, data.get(key), data['city'], data['language'])
+temp_task = [(func, data['url_data'][key], data['city'], data['language'])
              for data in url_list
              for func, key in parser]
-tasks = asyncio.wait([loop.create_task(main(func)) for f in temp_task])
-for data in url_list:
-    for func, key in parser:
-        url = data['url_data'][key]
-        j, e = func(url, city=data['city'], language=data['language'])
-        jobs += j
-        errors += e
+tasks = asyncio.wait([loop.create_task(main(func)) for func in temp_task])
+# for data in url_list:
+#     for func, key in parser:
+#         url = data['url_data'][key]
+#         j, e = func(url, city=data['city'], language=data['language'])
+#         jobs += j
+#         errors += e
+loop.run_until_complete(tasks)
+loop.close()
 
 for job in jobs:
     variable = Vacancy(**job)
