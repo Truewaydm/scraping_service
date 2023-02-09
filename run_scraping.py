@@ -14,7 +14,7 @@ django.setup()
 from django.db import DatabaseError
 
 from parser import *
-from scraping.models import Vacancy, City, Language, Errors
+from scraping.models import Vacancy, City, Language, Errors, Url
 
 User = get_user_model()
 
@@ -32,7 +32,21 @@ def get_settings():
     return settings_list
 
 
+def get_urls(_settings):
+    query_set = Url.objects.all().values()
+    url_dict = {(qs['city_id'], qs['language_id']): qs['url_data'] for qs in query_set}
+    urls = []
+    for pair in _settings:
+        temp = {}
+        temp['city'] = pair[0]
+        temp['language'] = pair[1]
+        temp['url_data'] = url_dict[pair]
+        urls.append(temp)
+    return urls
+
+
 get_user_city_id_and_language_id = get_settings()
+get_url = get_urls(get_user_city_id_and_language_id)
 
 city = City.objects.filter(slug='kyiv').first()
 language = Language.objects.filter(slug='python').first()
