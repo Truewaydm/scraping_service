@@ -55,6 +55,7 @@ class Vacancy(models.Model):
     class Meta:
         verbose_name = 'Vacancy'
         verbose_name_plural = 'Vacancies'
+        ordering = ['-timestamp']
 
     def __str__(self):
         return self.title
