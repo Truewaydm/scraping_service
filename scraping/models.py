@@ -5,6 +5,10 @@ from scraping.utils import from_cyrillic_to_eng
 
 # Create your models here.
 
+def default_urls():
+    return {'work_ua': '', 'rabota_ua': '', 'dou_ua': '', 'djinni_co': ''}
+
+
 class City(models.Model):
     name = models.CharField(max_length=50, verbose_name='City name', unique=True)
     slug = models.CharField(max_length=50, blank=True, unique=True)
@@ -59,3 +63,12 @@ class Vacancy(models.Model):
 class Errors(models.Model):
     timestamp = models.DateField(auto_now_add=True)
     data = models.JSONField()
+
+
+class Url(models.Model):
+    city = models.ForeignKey('City', on_delete=models.CASCADE, verbose_name='City')
+    language = models.ForeignKey('Language', on_delete=models.CASCADE, verbose_name='Language')
+    url_data = models.JSONField(default=default_urls)
+
+    class Meta:
+        unique_together = ('city', 'language')
