@@ -17,7 +17,7 @@ class UserLoginForm(forms.Form):
         if email and password:
             query_set = User.objects.filter(email=email)
             if not query_set.exists():
-                raise forms.ValidationError('This username not found!')
+                raise forms.ValidationError('This user not found!')
             if not check_password(password, query_set[0].password):
                 raise forms.ValidationError('Invalid password!')
             user = authenticate(email=email, password=password)
