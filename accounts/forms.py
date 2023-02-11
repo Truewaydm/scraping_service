@@ -2,6 +2,8 @@ from django import forms
 from django.contrib.auth import get_user_model, authenticate
 from django.contrib.auth.hashers import check_password
 
+from scraping.models import City, Language
+
 User = get_user_model()
 
 
@@ -41,3 +43,29 @@ class UserRegistrationForm(forms.ModelForm):
         if data['password'] != data['password2']:
             raise forms.ValidationError('Passwords do not match!')
         return data['password2']
+
+
+class UserUpdateForm(forms.Form):
+    city = forms.ModelChoiceField(
+        queryset=City.objects.all(),
+        required=True,
+        to_field_name='slug',
+        widget=forms.Select(attrs={'class': 'form-control'}),
+        label='City'
+    )
+    language = forms.ModelChoiceField(
+        queryset=Language.objects.all(),
+        required=True,
+        to_field_name='slug',
+        widget=forms.Select(attrs={'class': 'form-control'}),
+        label='Language'
+    )
+    send_email = forms.BooleanField(
+        required=False,
+        widget=forms.CheckboxInput,
+        label='Receive a mailing list?'
+    )
+
+    class Meta:
+        model = User
+        fields = ('city', 'language', 'send_email')
