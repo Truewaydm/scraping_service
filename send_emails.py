@@ -24,7 +24,18 @@ if users_dict:
     for pair in users_dict.keys():
         params['city_id__in'].append(pair[0])
         params['language_id__in'].append(pair[1])
-    query_set_vacancy = Vacancy.objects.filter(**params)[:10]
+    query_set_vacancy = Vacancy.objects.filter(**params).values()[:10]
+    vacancies = {}
+    for i in query_set_vacancy:
+        vacancies.setdefault((i['city_id'], i['language_id']), [])
+        vacancies[(i['city_id'], i['language_id'])].append(i)
+    for keys, emails in users_dict.items():
+        rows = vacancies.get(keys, [])
+        html = ''
+        for row in rows:
+            html += f'<h3"><a href="{row["url"]}">{row["title"]}</a></h3>'
+            html += f'<p>{row["description"]} </p>'
+            html += f'<p>{row["company"]} </p><br><hr>'
 
 subject, from_email, to = 'hello', 'from@example.com', 'to@example.com'
 text_content = 'This is an important message.'
