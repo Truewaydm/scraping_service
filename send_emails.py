@@ -1,17 +1,20 @@
 import os, sys
-
-from django.contrib.auth import get_user_model
+import django
 from django.core.mail import EmailMultiAlternatives
+from django.contrib.auth import get_user_model
 
 project = os.path.dirname(os.path.abspath('manage.py'))
 sys.path.append(project)
 os.environ["DJANGO_SETTINGS_MODULE"] = "scraping_service.settings"
 
-import django
-
 django.setup()
 from scraping.models import Vacancy
+from scraping_service.settings import EMAIL_HOST_USER
 
+subject = 'Newsletter of vacancies'
+text_content = 'Newsletter of vacancies'
+from_email = EMAIL_HOST_USER
+empty = '<h2>Unfortunately, there is no data for your preferences at the moment.</h2>'
 User = get_user_model()
 query_set_users = User.objects.filter(send_email=True).values('city', 'language', 'email')
 users_dict = {}
@@ -24,7 +27,8 @@ if users_dict:
     for pair in users_dict.keys():
         params['city_id__in'].append(pair[0])
         params['language_id__in'].append(pair[1])
-    query_set_vacancy = Vacancy.objects.filter(**params).values()[:10]
+        # [:10] - 10 vacancies, if empty, view all vacancies
+    query_set_vacancy = Vacancy.objects.filter(**params).values()
     vacancies = {}
     for i in query_set_vacancy:
         vacancies.setdefault((i['city_id'], i['language_id']), [])
@@ -36,10 +40,16 @@ if users_dict:
             html += f'<h3"><a href="{row["url"]}">{row["title"]}</a></h3>'
             html += f'<p>{row["description"]} </p>'
             html += f'<p>{row["company"]} </p><br><hr>'
+        _html = html if html else empty
+        for email in emails:
+            to = email
+            msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+            msg.attach_alternative(_html, "text/html")
+            msg.send()
 
-subject, from_email, to = 'hello', 'from@example.com', 'to@example.com'
-text_content = 'This is an important message.'
-html_content = '<p>This is an <strong>important</strong> message.</p>'
-msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
-msg.attach_alternative(html_content, "text/html")
-msg.send()
+# subject, from_email, to = 'hello', 'from@example.com', 'to@example.com'
+# text_content = 'This is an important message.'
+# html_content = '<p>This is an <strong>important</strong> message.</p>'
+# msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+# msg.attach_alternative(html_content, "text/html")
+# msg.send()
