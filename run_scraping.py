@@ -1,6 +1,7 @@
 import asyncio
 import codecs
 import os, sys
+import datetime
 
 from django.contrib.auth import get_user_model
 
@@ -84,7 +85,14 @@ for job in jobs:
         variable.save()
     except DatabaseError:
         pass
-    if errors:
+if errors:
+    query_set_errors = Errors.objects.filter(timestamp=datetime.date.today())
+    if query_set_errors.exists():
+        error = query_set_errors.first()
+        data = error.data
+        error.data.update({'errors': errors})
+        error.save()
+    else:
         error = Errors(data=f'errors:{errors}').save()
 
 # work_result = codecs.open('parser_vacancy.json', 'w', 'utf-8')
