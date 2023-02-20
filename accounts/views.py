@@ -74,7 +74,7 @@ def delete_view(request):
     return redirect('home')
 
 
-def contact(request):
+def contact_view(request):
     if request.method == 'POST':
         contact_form = ContactForm(request.POST or None)
         if contact_form.is_valid():
@@ -85,9 +85,11 @@ def contact(request):
             query_set_errors = Errors.objects.filter(timestamp=datetime.date.today())
             if query_set_errors.exists():
                 error = query_set_errors.first()
-                data = error.data.get('user_data', [])
+                # It's work if DB have only 1 objects in all list data = error.data_errors.get('user_data', [])
+                # Else DB have 2 or more objects, code have Exception list' object has no attribute 'get'
+                data = error.data_errors.get('user_data', [])
                 data.append({'city': city, 'email': email, 'language': language})
-                error.data['user_data'] = data
+                error.data_errors['user_data'] = data
                 error.save()
             else:
                 data = {'user_data': [
