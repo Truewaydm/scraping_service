@@ -4,6 +4,7 @@ import os, sys
 import datetime
 
 from django.contrib.auth import get_user_model
+from django.db import DatabaseError
 
 project = os.path.dirname(os.path.abspath('manage.py'))
 sys.path.append(project)
@@ -12,8 +13,6 @@ os.environ["DJANGO_SETTINGS_MODULE"] = "scraping_service.settings"
 import django
 
 django.setup()
-
-from django.db import DatabaseError
 
 from parser import *
 from scraping.models import Vacancy, City, Language, Errors, Url
@@ -26,30 +25,39 @@ parser = (
     (djinni_co, 'djinni_co'),
     (rabota_ua, 'rabota_ua')
 )
-
 jobs, errors = [], []
 
 
 def get_settings():
-    query_set = User.objects.filter(send_email=True).values()
-    settings_list = set((qs['city_id'], qs['language_id']) for qs in query_set)
-    return settings_list
+    query_set_users = User.objects.filter(send_email=True).values()
+    global settings_list
+    try:
+        if query_set_users.exists():
+            settings_list = set((qs['city_id'], qs['language_id']) for qs in query_set_users)
+            return settings_list
+    except ValueError:
+        print(settings_list, 'have not city_id or language_id')
+
 
 
 def get_urls(settings):
-    query_set = Url.objects.all().values()
-    url_dict = {(qs['city_id'], qs['language_id']): qs['url_data'] for qs in query_set}
+    query_set_urls = Url.objects.all().values()
+    url_dict = {(qs['city_id'], qs['language_id']): qs['url_data'] for qs in query_set_urls}
     urls = []
-    for pair in settings:
-        if pair in url_dict:
-            temp = {}
-            temp['city'] = pair[0]
-            temp['language'] = pair[1]
-            url_data = url_dict.get(pair)
-            if url_data:
-                temp['url_data'] = url_dict.get(pair)
-                urls.append(temp)
-    return urls
+    global pair
+    try:
+        for pair in settings:
+            if pair in url_dict:
+                tmp = {}
+                tmp['city'] = pair[0]
+                tmp['language'] = pair[1]
+                url_data = url_dict.get(pair)
+                if url_data:
+                    tmp['url_data'] = url_dict.get(pair)
+                    urls.append(tmp)
+        return urls
+    except ValueError:
+        print(pair + ' not in ' + url_dict)
 
 
 async def main(value):
@@ -59,8 +67,8 @@ async def main(value):
     jobs.extend(job)
 
 
-setting = get_settings()
-url_list = get_urls(setting)
+settings = get_settings()
+url_list = get_urls(settings)
 
 # city = City.objects.filter(slug='kyiv').first()
 # language = Language.objects.filter(slug='python').first()
@@ -69,15 +77,16 @@ loop = asyncio.get_event_loop()
 temp_task = [(func, data['url_data'][key], data['city'], data['language'])
              for data in url_list
              for func, key in parser]
-tasks = asyncio.wait([loop.create_task(main(func)) for func in temp_task])
 # for data in url_list:
 #     for func, key in parser:
 #         url = data['url_data'][key]
 #         j, e = func(url, city=data['city'], language=data['language'])
 #         jobs += j
 #         errors += e
-loop.run_until_complete(tasks)
-loop.close()
+if temp_task:
+    tasks = asyncio.wait([loop.create_task(main(f)) for f in temp_task])
+    loop.run_until_complete(tasks)
+    loop.close()
 
 for job in jobs:
     variable = Vacancy(**job)
@@ -89,12 +98,11 @@ if errors:
     query_set_errors = Errors.objects.filter(timestamp=datetime.date.today())
     if query_set_errors.exists():
         error = query_set_errors.first()
-        data = error.data
         error.data.update({'errors': errors})
         error.save()
     else:
         error = Errors(data=f'errors:{errors}').save()
 
-# work_result = codecs.open('parser_vacancy.json', 'w', 'utf-8')
-# work_result.write(str(jobs))
-# work_result.close()
+work_result = codecs.open('parser_vacancy.json', 'w', 'utf-8')
+work_result.write(str(jobs))
+work_result.close()
