@@ -58,18 +58,28 @@ to = ADMIN_USER
 _html = ''
 if query_set_errors.exists():
     error = query_set_errors.first()
-    data = error.data
+    data = error.data_errors['errors']
     for i in data:
         _html += f'<p"><a href="{i["url"]}">Error: {i["title"]}</a></p>'
         subject = f'Scraping error {today}'
         text_content = 'Scraping error'
+
+        data = error.data_errors.get('user_data')
+        if data:
+            _html += '<hr>'
+            _html += '<h2>User Wishes</h2>'
+            for i in data:
+                _html += f'<p">City: {i["city"]}, Language:{i["language"]},  Email:{i["email"]}</p><br>'
+            subject += f'User Wishes {today}'
+            text_content += 'User Wishes'
 
 query_set_urls = Url.objects.all().values('city', 'language')
 urls_dict = {(i['city'], i['language']): True for i in query_set_urls}
 urls_error = ''
 for keys in urls_dict.keys():
     if keys not in urls_dict:
-        urls_error += f'<p">For city: {keys[0]} and Language: {keys[1]}</p><br>'
+        if keys[0] and keys[1]:
+            urls_error += f'<p">For city: {keys[0]} and Language: {keys[1]} is empty urls</p><br>'
 if urls_error:
     subject += 'Urls empty'
     _html += urls_error
