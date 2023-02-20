@@ -9,7 +9,7 @@ sys.path.append(project)
 os.environ["DJANGO_SETTINGS_MODULE"] = "scraping_service.settings"
 
 django.setup()
-from scraping.models import Vacancy, Errors
+from scraping.models import Vacancy, Errors, Url
 from scraping_service.settings import EMAIL_HOST_USER
 
 ADMIN_USER = EMAIL_HOST_USER
@@ -18,6 +18,7 @@ subject = f'Newsletter of vacancies for {today}'
 text_content = f'Newsletter of vacancies {today}'
 from_email = EMAIL_HOST_USER
 empty = '<h2>Unfortunately, there is no data for your preferences at the moment.</h2>'
+
 User = get_user_model()
 query_set_users = User.objects.filter(send_email=True).values('city', 'language', 'email')
 users_dict = {}
@@ -51,15 +52,28 @@ if users_dict:
             msg.send()
 
 query_set_errors = Errors.filter(timestamp=today)
+subject = ''
+text_content = ''
+to = ADMIN_USER
+_html = ''
 if query_set_errors.exists():
     error = query_set_errors.first()
     data = error.data
-    _html = ''
     for i in data:
         _html += f'<p"><a href="{i["url"]}">Error: {i["title"]}</a></p>'
         subject = f'Scraping error {today}'
         text_content = 'Scraping error'
-        to = ADMIN_USER
+
+query_set_urls = Url.objects.all().values('city', 'language')
+urls_dict = {(i['city'], i['language']): True for i in query_set_urls}
+urls_error = ''
+for keys in urls_dict.keys():
+    if keys not in urls_dict:
+        urls_error += f'<p">For city: {keys[0]} and Language: {keys[1]}</p><br>'
+if urls_error:
+    subject += 'Urls empty'
+    _html += urls_error
+if subject:
     msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
     msg.attach_alternative(_html, "text/html")
     msg.send()
