@@ -57,8 +57,8 @@ if query_set_errors.exists():
     _html = ''
     for i in data:
         _html += f'<p"><a href="{i["url"]}">Error: {i["title"]}</a></p>'
-        subject = ''
-        text_content = ''
+        subject = f'Scraping error {today}'
+        text_content = 'Scraping error'
         to = ADMIN_USER
     msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
     msg.attach_alternative(_html, "text/html")
