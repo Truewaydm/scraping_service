@@ -85,7 +85,7 @@ for job in jobs:
     except DatabaseError:
         pass
     if errors:
-        error = Errors(data=errors).save()
+        error = Errors(data=f'errors:{errors}').save()
 
 # work_result = codecs.open('parser_vacancy.json', 'w', 'utf-8')
 # work_result.write(str(jobs))
