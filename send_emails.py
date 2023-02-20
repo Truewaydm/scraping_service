@@ -1,5 +1,6 @@
 import os, sys
 import django
+import datetime
 from django.core.mail import EmailMultiAlternatives
 from django.contrib.auth import get_user_model
 
@@ -8,11 +9,13 @@ sys.path.append(project)
 os.environ["DJANGO_SETTINGS_MODULE"] = "scraping_service.settings"
 
 django.setup()
-from scraping.models import Vacancy
+from scraping.models import Vacancy, Errors
 from scraping_service.settings import EMAIL_HOST_USER
 
-subject = 'Newsletter of vacancies'
-text_content = 'Newsletter of vacancies'
+ADMIN_USER = EMAIL_HOST_USER
+today = datetime.date.today()
+subject = f'Newsletter of vacancies for {today}'
+text_content = f'Newsletter of vacancies {today}'
 from_email = EMAIL_HOST_USER
 empty = '<h2>Unfortunately, there is no data for your preferences at the moment.</h2>'
 User = get_user_model()
@@ -28,7 +31,7 @@ if users_dict:
         params['city_id__in'].append(pair[0])
         params['language_id__in'].append(pair[1])
         # [:10] - 10 vacancies, if empty, view all vacancies
-    query_set_vacancy = Vacancy.objects.filter(**params).values()
+    query_set_vacancy = Vacancy.objects.filter(**params, timestamp=today).values()
     vacancies = {}
     for i in query_set_vacancy:
         vacancies.setdefault((i['city_id'], i['language_id']), [])
@@ -46,6 +49,20 @@ if users_dict:
             msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
             msg.attach_alternative(_html, "text/html")
             msg.send()
+
+query_set_errors = Errors.filter(timestamp=today)
+if query_set_errors.exists():
+    error = query_set_errors.first()
+    data = error.data
+    _html = ''
+    for i in data:
+        _html += f'<p"><a href="{i["url"]}">Error: {i["title"]}</a></p>'
+        subject = ''
+        text_content = ''
+        to = ADMIN_USER
+    msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+    msg.attach_alternative(_html, "text/html")
+    msg.send()
 
 # subject, from_email, to = 'hello', 'from@example.com', 'to@example.com'
 # text_content = 'This is an important message.'
