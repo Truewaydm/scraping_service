@@ -39,7 +39,6 @@ def get_settings():
         print(settings_list, 'have not city_id or language_id')
 
 
-
 def get_urls(settings):
     query_set_urls = Url.objects.all().values()
     url_dict = {(qs['city_id'], qs['language_id']): qs['url_data'] for qs in query_set_urls}
@@ -106,3 +105,10 @@ if errors:
 work_result = codecs.open('parser_vacancy.json', 'w', 'utf-8')
 work_result.write(str(jobs))
 work_result.close()
+
+ten_days_ago = datetime.date.today() - datetime.timedelta(10)
+# Field Lookups - lte (less than, or equal to)
+# The lte lookup is used to get records that are less than, or equal to, a specified value.
+# The SQL equivalent to the example above will be:
+# WHERE id <= 10;
+Vacancy.objects.filter(timestamp__lte=ten_days_ago).delete()
