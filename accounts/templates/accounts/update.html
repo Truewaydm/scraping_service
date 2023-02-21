@@ -21,14 +21,25 @@
 
 <div class="row">
     <div class="col-md-8 mx-auto my-2">
-        <p class="my-2 alert alert-success">If you did not find a suitable set of City, Language, you can fill out the form below with your wishes.
-             After the necessary data is added, you will receive an email to the email address you provided.</p>
-        <form method="POST" action="{% url 'accounts:contact' %}"> {% csrf_token %}
-            <div class="form-group">
-                {{ contact_form.as_p }}
+        <p class="my-2 alert alert-success">If you did not find a suitable set of City, Language, you can fill out the
+            form below with your wishes.
+            After the necessary data is added, you will receive an email to the email address you provided.</p>
+        <p>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                View form
+            </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                <form method="POST" action="{% url 'accounts:contact' %}"> {% csrf_token %}
+                    <div class="form-group">
+                        {{ contact_form.as_p }}
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
             </div>
-            <button type="submit" class="btn btn-primary">Send</button>
-        </form>
+        </div>
     </div>
 </div>
 
