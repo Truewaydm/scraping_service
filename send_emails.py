@@ -58,7 +58,7 @@ to = ADMIN_USER
 _html = ''
 if query_set_errors.exists():
     error = query_set_errors.first()
-    data = error.data_errors['errors']
+    data = error.data_errors.get('errors', [])
     for i in data:
         _html += f'<p"><a href="{i["url"]}">Error: {i["title"]}</a></p>'
         subject = f'Scraping error {today}'
