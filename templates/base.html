@@ -1,4 +1,7 @@
 {% load static %}
+{% url 'accounts:update' as update_url %}
+{% url 'accounts:register' as register_url %}
+{% url 'accounts:login' as login_url %}
 <!doctype html>
 <html lang="en">
 <head>
@@ -33,13 +36,16 @@
                     <a class="nav-link" href="{% url 'accounts:logout' %}">Logout</a>
                 </li>
                 <li class="nav-item">
+                <li class="nav-item {% if request.path == update_url %} active {% endif %} ">
                     <a class="nav-link" href="{% url 'accounts:update' %}">User settings</a>
                 </li>
                 {% else %}
                 <li class="nav-item">
+                <li class="nav-item {% if request.path == login_url %} active {% endif %}">
                     <a class="nav-link" href="{% url 'accounts:login' %}">Sign in</a>
                 </li>
                 <li class="nav-item">
+                <li class="nav-item {% if request.path == register_url %} active {% endif %}">
                     <a class="nav-link" href="{% url 'accounts:register' %}">Registration</a>
                 </li>
                 {% endif %}
