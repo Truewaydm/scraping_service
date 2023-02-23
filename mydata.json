@@ -1,0 +1,5549 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-02-16T14:09:15.506Z",
+    "user": 6,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "user@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-02-16T14:09:20.382Z",
+    "user": 6,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "zx@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-02-16T14:28:30.864Z",
+    "user": 6,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "test@gmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-02-16T14:28:46.593Z",
+    "user": 6,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "test@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\", \"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-02-20T12:55:11.086Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "163",
+    "object_repr": "2023-02-20",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-02-20T14:10:04.417Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "163",
+    "object_repr": "2023-02-20",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-02-20T14:12:20.780Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "163",
+    "object_repr": "2023-02-20",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Data\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-02-20T14:13:01.701Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "163",
+    "object_repr": "2023-02-20",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-02-20T14:14:27.555Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "163",
+    "object_repr": "2023-02-20",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Data\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-02-20T14:30:11.434Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "163",
+    "object_repr": "2023-02-20",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-02-20T14:30:39.312Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "163",
+    "object_repr": "2023-02-20",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Data\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-02-20T14:34:26.926Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "163",
+    "object_repr": "2023-02-20",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-02-20T14:38:47.986Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "161",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-02-20T14:38:47.998Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "160",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.001Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "159",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.003Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "158",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.006Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "157",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.009Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "156",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.010Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "155",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.012Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "154",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.014Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "153",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.016Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "152",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.017Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "151",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.019Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "150",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.021Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "149",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.023Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "148",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.025Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "147",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.026Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "146",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.028Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "145",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.030Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "144",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.032Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "143",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.033Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "142",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.035Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "141",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.037Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "140",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.039Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "139",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.041Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "138",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.042Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "137",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.044Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "136",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.046Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "135",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.047Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "134",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.049Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "133",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.051Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "132",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.053Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "131",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.055Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "130",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.058Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "129",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.060Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "128",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.061Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "127",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.063Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "126",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.065Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "125",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.067Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "124",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.069Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "123",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.071Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "122",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.073Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "121",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.075Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "120",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.076Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "119",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.078Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "118",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.080Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "117",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.082Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "116",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.083Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "115",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.085Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "114",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.087Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "113",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.088Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "112",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.090Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "111",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.092Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "110",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.094Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "109",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.096Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "108",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.097Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "107",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.099Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "106",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.101Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "105",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.103Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "104",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.105Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "103",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.107Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "102",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.109Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "101",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.111Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "100",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.113Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "99",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.114Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "98",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.116Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "97",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.119Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "96",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.121Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "95",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.123Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "94",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.125Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "93",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.127Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "92",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.128Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "91",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.130Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "90",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.132Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "89",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.133Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "88",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.135Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "87",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.137Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "86",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.139Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "85",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.141Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "84",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.143Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "83",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.145Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "82",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.148Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "81",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.150Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "80",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.152Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "79",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.154Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "78",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.156Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "77",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.158Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "76",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.160Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "75",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.162Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "74",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.164Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "73",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.166Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "72",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.168Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "71",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.170Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "70",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.172Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "69",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.175Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "68",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.176Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "67",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.178Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "66",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.180Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "65",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2023-02-20T14:38:48.182Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "64",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.251Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "63",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.292Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "62",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.295Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "61",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.298Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "60",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.301Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "59",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.303Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "58",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.305Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "57",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.307Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "56",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.309Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "55",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.310Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "54",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.312Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "53",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.314Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "52",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.316Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "51",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.318Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "50",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.320Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "49",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.322Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "48",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.324Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "47",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.326Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "46",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.327Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "45",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.329Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "44",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.331Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "43",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.333Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "42",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.334Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "41",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.337Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "40",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.345Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "39",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.347Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "38",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.348Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "37",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.351Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "36",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.353Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "35",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.355Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "34",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.356Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "33",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.358Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "32",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.360Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "31",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.362Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "30",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.364Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "29",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.366Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "28",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.368Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "27",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.370Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "26",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.373Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "25",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.375Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "24",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.376Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "23",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.378Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "22",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.380Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "21",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.382Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "20",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.384Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "19",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.386Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "18",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.389Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "17",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.391Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "16",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.392Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "15",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.394Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.396Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 173,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.398Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 174,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.400Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 175,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.402Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 176,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.404Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 177,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.407Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 178,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.409Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 179,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.411Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 180,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.412Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 181,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.414Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 182,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.416Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 183,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.418Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 184,
+  "fields": {
+    "action_time": "2023-02-20T14:38:59.420Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "2023-02-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 185,
+  "fields": {
+    "action_time": "2023-02-20T15:02:52.925Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "163",
+    "object_repr": "2023-02-20",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Data errors\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 186,
+  "fields": {
+    "action_time": "2023-02-20T15:03:26.467Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "163",
+    "object_repr": "2023-02-20",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Data errors\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 187,
+  "fields": {
+    "action_time": "2023-02-20T15:03:32.686Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "163",
+    "object_repr": "2023-02-20",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 188,
+  "fields": {
+    "action_time": "2023-02-20T15:13:40.812Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "162",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 189,
+  "fields": {
+    "action_time": "2023-02-20T15:21:06.685Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "163",
+    "object_repr": "2023-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 190,
+  "fields": {
+    "action_time": "2023-02-20T15:22:26.116Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "164",
+    "object_repr": "2023-02-20",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 191,
+  "fields": {
+    "action_time": "2023-02-20T15:25:55.603Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "164",
+    "object_repr": "2023-02-20",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Data errors\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 192,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.466Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "132",
+    "object_repr": " Data scientist ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 193,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.469Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "131",
+    "object_repr": " Головний фахівець управління аналітики та CVM ГО ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 194,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.471Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "130",
+    "object_repr": " Middle Python developer ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 195,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.473Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "129",
+    "object_repr": " Data Engineer (Big Data) ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 196,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.474Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "128",
+    "object_repr": " Middle Python Developer ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 197,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.476Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "127",
+    "object_repr": " Senior/Lead Software Engineer (IRC162159) ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 198,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.478Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "126",
+    "object_repr": " Product Analyst (Intern) ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 199,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.481Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "125",
+    "object_repr": " Analyst (стажування) ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 200,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.482Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "124",
+    "object_repr": "\n\nSenior Python Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 201,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.484Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "123",
+    "object_repr": "\n\nPython Backend Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 202,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.486Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "122",
+    "object_repr": "\n\nPython developer / strong junior\n\n$600-1200\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 203,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.488Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "121",
+    "object_repr": "\n\nPython/Data Modelling Developer - Poland or relocation to Poland\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 204,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.490Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "120",
+    "object_repr": "\n\nMiddle/Senior BackEnd developer Python/Django\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 205,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.491Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "119",
+    "object_repr": "\n\nSr Python Engineer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 206,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.493Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "118",
+    "object_repr": "\n\nPython Backend Software Engineer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 207,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.495Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "117",
+    "object_repr": "\n\nSenior AI Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 208,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.497Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "116",
+    "object_repr": "\n\nPython Developer Senior/Lead\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 209,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.498Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "115",
+    "object_repr": "\n\nSenior Python Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 210,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.500Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "114",
+    "object_repr": "\n\nSenior Full-Stack Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 211,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.502Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "113",
+    "object_repr": "\n\nSenior Python Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 212,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.504Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "112",
+    "object_repr": "\n\nPython Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 213,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.505Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "111",
+    "object_repr": "\n\nBackend Developer (Python)\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 214,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.507Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "110",
+    "object_repr": "\n\nPython (Django) Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 215,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.509Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "109",
+    "object_repr": "\nPython Developer (Mentor) в  FoxmindEd\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 216,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.510Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "108",
+    "object_repr": "\nJunior Machine Learning Engineer (PlantIn) в  Genesis\nКиїв, гібрид, Київ, офіс, Варшава (Польща), віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 217,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.512Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "107",
+    "object_repr": "\nFull-Stack Python Engineer в  Clover Dynamics\nЛьвів, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 218,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.514Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "106",
+    "object_repr": "\nMiddle Python Developer в  Yalantis\nКиїв, Львів, Дніпро, Варшава (Польща)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 219,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.516Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "105",
+    "object_repr": "\nBack-end Python Developer в  FreySoft\n$3500–5000\nза кордоном, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 220,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.518Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "104",
+    "object_repr": "\nRegular QA Automation (Python) в  Tietoevry\n$1500–3000\nКиїв, Львів, Одеса, за кордоном, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 221,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.519Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "103",
+    "object_repr": "\nParser в  Deep Knowledge Group\nвід $2000\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 222,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.521Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "102",
+    "object_repr": "\nSenior Software Engineer (Python) в  Competera Pricing Platform\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 223,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.523Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "101",
+    "object_repr": "\nMiddle Software Engineer (Python) в  Competera Pricing Platform\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 224,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.524Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "100",
+    "object_repr": "\nSenior software engineer в  TemaBit Fozzy Group\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 225,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.526Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "99",
+    "object_repr": "\nPython (Django) Developer в  inVerita\nЛьвів, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 226,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.528Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "98",
+    "object_repr": "\nSenior Back-end developer в  Uptarget.co\nЧеркаси\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 227,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.529Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "97",
+    "object_repr": "\nPython developer (middle, senior) в  Traffic Squad\n$1500–3000\nКиїв\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 228,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.531Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "96",
+    "object_repr": "\nSenior Python Developer в  Innovecs\nКиїв, Львів\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 229,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.533Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "95",
+    "object_repr": "\nSenior FullStack Software Engineer (React/Python) в  UKEESS Software House\nза кордоном\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 230,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.535Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "94",
+    "object_repr": "\nPython Backend Software Engineer в  Neuroshop tech\nКиїв\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 231,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.536Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "93",
+    "object_repr": "\nPython Developer Senior/Lead в  Vimmi\nВінниця, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 232,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.538Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "92",
+    "object_repr": "\nPython Developer в  Playtika\nКиїв, Дніпро, Вінниця, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 233,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.540Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "91",
+    "object_repr": "\nDesktop Automation QA (Python) в  LULU Software\nPoland\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 234,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.541Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "90",
+    "object_repr": "\nPython (Django) Developer в  Django Stars\nКиїв, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 235,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.543Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "89",
+    "object_repr": "\nSoftware Engineer (PHP, NodeJS, Python, Scraping Project)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 236,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.545Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "88",
+    "object_repr": " Junior Product Manager ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 237,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.547Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "87",
+    "object_repr": "\n\nPython Developer (Data-driven)\n\n$6000-8000\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 238,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.549Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "86",
+    "object_repr": " Research Scientist – Bioconjugation/Delivery Research ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 239,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.550Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "85",
+    "object_repr": " Risk Analyst ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 240,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.552Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "84",
+    "object_repr": " Data Engineer (Big Data) ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 241,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.554Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "83",
+    "object_repr": " Data Scientist ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 242,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.555Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "82",
+    "object_repr": " Спеціаліст з данних (Junior/Middle Data Engineer) ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 243,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.557Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "81",
+    "object_repr": " Начальник Центру обробки та прогнозування даних ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 244,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.559Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "80",
+    "object_repr": "\n\nIntegration Developer (Python)\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 245,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.560Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "79",
+    "object_repr": "\n\nSenior Python Engineer\n\nвід $3500\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 246,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.562Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "78",
+    "object_repr": "\n\nMiddle/Senior Python developer\n\nвід $3500\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 247,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.564Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "77",
+    "object_repr": "\n\nTech lead Python developer\n\nдо $4800\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 248,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.566Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "76",
+    "object_repr": "\n\nSenior Python Engineer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 249,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.567Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "75",
+    "object_repr": "\n\nStrong Middle Software Python Engineer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 250,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.569Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "74",
+    "object_repr": "\n\nPython developer\n\n$1000-1200\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 251,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.571Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "73",
+    "object_repr": "\n\nSenior Data and content engineer lead\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 252,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.572Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "72",
+    "object_repr": "\n\nSenior Full Stack Developer (Python)\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 253,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.574Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "71",
+    "object_repr": "\n\nSenior Backend Python Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 254,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.576Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "70",
+    "object_repr": "\n\nSenior Python Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 255,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.577Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "69",
+    "object_repr": "\n\nSoftware Engineer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 256,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.579Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "68",
+    "object_repr": "\n\nBackend Developer (Python)\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 257,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.581Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "67",
+    "object_repr": "\n\nPython Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 258,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.583Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "66",
+    "object_repr": "\n\nSenior Python Developer\n\n$5000-7000\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 259,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.585Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "65",
+    "object_repr": "\nSenior Python Developer в  Oriented Soft\n$4000–6000\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 260,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.587Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "64",
+    "object_repr": "\nPython developer в  Nestlogic\nКиїв, Вінниця, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 261,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.588Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "63",
+    "object_repr": "\nLead Backend Engineer (AI/ML) в  Dedicatted\nЛьвів, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 262,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.590Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "62",
+    "object_repr": "\nFull Stack Developer (React/Python) в  Jellyfish.tech\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 263,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.592Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "61",
+    "object_repr": "\nРозробник-адміністратор Odoo в ТехноЮГ\n$350–500\nОдеса, за кордоном, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 264,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.593Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "60",
+    "object_repr": "\nLead Full-stack engineer в HIRETOP\n$5000–5400\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 265,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.595Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "59",
+    "object_repr": "\nSenior Python Engineer at AI Project в  Ralabs\nЛьвів, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 266,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.597Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "58",
+    "object_repr": "\nSenior Python Developer в  Corva.AI\nза кордоном\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 267,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.599Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "57",
+    "object_repr": "\nSenior Backend Python Developer в  MWDN\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 268,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.601Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "56",
+    "object_repr": "\nMiddle Python Developer in Test (Malevich)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 269,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.603Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "55",
+    "object_repr": "\nStrong Middle Python developer\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 270,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.605Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "54",
+    "object_repr": " Дата аналітик ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 271,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.607Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "53",
+    "object_repr": " Senior Data Analyst (Java and Big Data Unit) ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 272,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.608Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "52",
+    "object_repr": " Фахівець з геоінформаційних технологій (ГІС) / Geographic Information System (GIS) Officer ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 273,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.610Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "51",
+    "object_repr": " Product Data Analyst/Middle Analyst ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 274,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.612Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "50",
+    "object_repr": " Middle Python Developer in Test (Malevich) ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 275,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.614Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "49",
+    "object_repr": " Провідний фахівець з ризик-аналітики та управлінської звітності ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 276,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.616Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "48",
+    "object_repr": " Начальник Центру обробки та прогнозування даних ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 277,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.618Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "47",
+    "object_repr": "\n\nJunior Python Developer for AI Software Product\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 278,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.619Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "46",
+    "object_repr": "\n\nMiddle Python Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 279,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.621Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "45",
+    "object_repr": "\n\nPython Full Stack Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 280,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.623Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "44",
+    "object_repr": "\n\nFullstack( Python/React) Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 281,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.624Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "43",
+    "object_repr": "\n\nFull stack developer\n\n$3000-4500\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 282,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.626Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "42",
+    "object_repr": "\n\nPython developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 283,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.628Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "41",
+    "object_repr": "\n\nSenior Backend Engineer(Python)\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 284,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.630Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "40",
+    "object_repr": "\n\nPython/Django Engineer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 285,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.632Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "39",
+    "object_repr": "\n\nMiddle-Senior Python/Django Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 286,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.634Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "38",
+    "object_repr": "\n\nSenior Backend Engineer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 287,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.635Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "37",
+    "object_repr": "\n\nPython Developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 288,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.637Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "36",
+    "object_repr": "\n\nSoftware Engineer (Python)\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 289,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.639Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "35",
+    "object_repr": "\n\nPython (Machine Learning\\Computer vision) developer\n\n$7000-12000\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 290,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.640Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "34",
+    "object_repr": "\n\nPython developer\n\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 291,
+  "fields": {
+    "action_time": "2023-02-20T15:47:22.642Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "33",
+    "object_repr": "\n\nMiddle Python Developer\n\n$2000-3000\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 292,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.099Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "32",
+    "object_repr": "\nMiddle+ Full Stack Engineer в  Beetroot\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 293,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.111Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "31",
+    "object_repr": "\nPython Developer в  Demigos\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 294,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.114Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "30",
+    "object_repr": "\nSenior Python developer в  Demigos\n$2500–4000\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 295,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.116Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "29",
+    "object_repr": "\nMiddle/Senior Python developer в  iSi Technology\n$2000–3000\nза кордоном, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 296,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.118Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "28",
+    "object_repr": "\nSoftware Engineer в  INCOAlliance\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 297,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.120Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "27",
+    "object_repr": "\nSenior Back-End Engineer в  ZONE3000\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 298,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.122Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "26",
+    "object_repr": "\nPython Full Stack Developer (SK-1082) в  Nortal\nЛьвів\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 299,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.124Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "25",
+    "object_repr": "\nSenior Backend Developer (Python) в  Data Science UA\nКиїв, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 300,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.126Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "24",
+    "object_repr": "\nOdoo developer в  Itransition\nКиїв, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 301,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.128Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "23",
+    "object_repr": "\nFullStack Python Developer в  Raccoon Gang\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 302,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.130Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "22",
+    "object_repr": "\nMiddle QA Engineer (Python) в  ZONE3000\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 303,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.131Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "\nPython/Go Engineer в PIN-UP.TECH\nВаршава (Польща), Лімасол (Кіпр)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 304,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.133Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "\nMiddle Python Developer в  Wild Wild Leads\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 305,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.135Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "\nMiddle Backend developer (Python) в  PAXLE\nвід $1500\nКиїв, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 306,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.137Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "\nSenior Python Developer в  Лінія магазинів EVA\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 307,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.139Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "\nStrong Full-Stack Python/Django/Vue.js Developer (Mid/Senior) в  42 Coffee Cups\nвіддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 308,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.140Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "\nSoftware Engineer (Python) в  SPS Ukraine\nКиїв, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 309,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.149Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "\nMiddle Python Developer в  COXIT\n$2000–3000\nЛьвів\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 310,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.150Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "\nHead of Python Engineer в SoftConstruct Ukraine\nКиїв\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 311,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.153Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "\nAnalyst (Python) в  ПриватБанк\nКиїв, віддалено\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 312,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.155Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "\nPython Developer (Middle)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 313,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.156Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "\nPython-програміст\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 314,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.158Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "\nBackend (PHP/Python) разработчик\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 315,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.160Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "\nMiddle/Senior BackEnd developer (Python/Django)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 316,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.162Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "\nМенеджер з управління товарними запасами (SQL, Python)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 317,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.164Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "\nMiddle Python Developer\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 318,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.166Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "\nPython developer\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 319,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.168Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "\nSoftware Engineer (PHP, NodeJS, Python, Scraping Project)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 320,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.170Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "\nPHP/Python-разработчик (Back End)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 321,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.172Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "\nPython backend developer\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 322,
+  "fields": {
+    "action_time": "2023-02-20T15:47:29.174Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "\nРозробник (Python, Full Stack)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 323,
+  "fields": {
+    "action_time": "2023-02-20T17:10:19.233Z",
+    "user": 6,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Url object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 324,
+  "fields": {
+    "action_time": "2023-02-20T17:15:32.151Z",
+    "user": 6,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Url object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 325,
+  "fields": {
+    "action_time": "2023-02-20T17:15:50.893Z",
+    "user": 6,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Url object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 326,
+  "fields": {
+    "action_time": "2023-02-20T17:23:47.123Z",
+    "user": 6,
+    "content_type": 8,
+    "object_id": "133",
+    "object_repr": "title",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 327,
+  "fields": {
+    "action_time": "2023-02-20T17:42:19.069Z",
+    "user": 6,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "test@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 328,
+  "fields": {
+    "action_time": "2023-02-20T17:43:26.512Z",
+    "user": 6,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Java",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 329,
+  "fields": {
+    "action_time": "2023-02-20T17:44:35.626Z",
+    "user": 6,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Java",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 330,
+  "fields": {
+    "action_time": "2023-02-20T17:44:40.043Z",
+    "user": 6,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Java",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 331,
+  "fields": {
+    "action_time": "2023-02-20T17:47:29.576Z",
+    "user": 6,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Java",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 332,
+  "fields": {
+    "action_time": "2023-02-20T17:47:32.499Z",
+    "user": 6,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 333,
+  "fields": {
+    "action_time": "2023-02-20T17:51:04.843Z",
+    "user": 6,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "ts@gmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 334,
+  "fields": {
+    "action_time": "2023-02-20T17:51:15.949Z",
+    "user": 6,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "ts@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 335,
+  "fields": {
+    "action_time": "2023-02-20T18:34:14.422Z",
+    "user": 6,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "tes1@gmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 336,
+  "fields": {
+    "action_time": "2023-02-20T18:34:22.639Z",
+    "user": 6,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "tes1@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add City name",
+    "content_type": 6,
+    "codename": "add_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change City name",
+    "content_type": 6,
+    "codename": "change_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete City name",
+    "content_type": 6,
+    "codename": "delete_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view City name",
+    "content_type": 6,
+    "codename": "view_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Language",
+    "content_type": 7,
+    "codename": "add_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Language",
+    "content_type": 7,
+    "codename": "change_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Language",
+    "content_type": 7,
+    "codename": "delete_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Language",
+    "content_type": 7,
+    "codename": "view_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Vacancy",
+    "content_type": 8,
+    "codename": "add_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Vacancy",
+    "content_type": 8,
+    "codename": "change_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Vacancy",
+    "content_type": 8,
+    "codename": "delete_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Vacancy",
+    "content_type": 8,
+    "codename": "view_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add my user",
+    "content_type": 9,
+    "codename": "add_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change my user",
+    "content_type": 9,
+    "codename": "change_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete my user",
+    "content_type": 9,
+    "codename": "delete_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view my user",
+    "content_type": 9,
+    "codename": "view_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add errors",
+    "content_type": 10,
+    "codename": "add_errors"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change errors",
+    "content_type": 10,
+    "codename": "change_errors"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete errors",
+    "content_type": 10,
+    "codename": "delete_errors"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view errors",
+    "content_type": 10,
+    "codename": "view_errors"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add url",
+    "content_type": 11,
+    "codename": "add_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change url",
+    "content_type": 11,
+    "codename": "change_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete url",
+    "content_type": 11,
+    "codename": "delete_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view url",
+    "content_type": 11,
+    "codename": "view_url"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "scraping",
+    "model": "city"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "scraping",
+    "model": "language"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "scraping",
+    "model": "vacancy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "accounts",
+    "model": "myuser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "scraping",
+    "model": "errors"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "scraping",
+    "model": "url"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "06gkw12gzuu3k5tp7z72bu8mja4iegzv",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAURO_C2pAWPnxw6b5nIPABqRpISrsy3t026UJnOe_NvJnz21rc1tPi5siuTLPLbxc8PVM9QHz4em-cWl2XOfBD4SftfGoxvW6n-3dQfC_7Ou9BjCaCBYESYcAgrYbkszFGKRASZTaEVpnBEkUCnVELTInG0Qv2-QLZhzd8:1pV8sx:sv-9n7mmCqjE1SDsPEacDH3Di6H4_LBPYP3XuCeH9Rs",
+    "expire_date": "2023-03-09T10:31:35.416Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xovhkkepqasobcsk4ardrlnp79hxruy7",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAURO_C2pAWPnxw6b5nIPABqRpISrsy3t026UJnOe_NvJnz21rc1tPi5siuTLPLbxc8PVM9QHz4em-cWl2XOfBD4SftfGoxvW6n-3dQfC_7Ou9BjCaCBYESYcAgrYbkszFGKRASZTaEVpnBEkUCnVELTInG0Qv2-QLZhzd8:1pSevk:5dkZs72hxPR_DcYYAKItwb-8gkCuaLGva5HxZ1vKaW0",
+    "expire_date": "2023-03-02T14:08:12.617Z"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 1,
+  "fields": {
+    "name": "Kyiv",
+    "slug": "kyiv"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 2,
+  "fields": {
+    "name": "Odessa",
+    "slug": "odessa"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 3,
+  "fields": {
+    "name": "Java",
+    "slug": "java"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 133,
+  "fields": {
+    "url": "https://www.work.ua/jobs/4460554/",
+    "title": "title",
+    "company": "Левел99",
+    "description": "https://www.work.ua/jobs/4460554/",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 134,
+  "fields": {
+    "url": "https://www.work.ua/jobs/5050307/",
+    "title": "\nSoftware Engineer (PHP, NodeJS, Python, Scraping Project)\n",
+    "company": "Abz.agency®",
+    "description": "\n            Повна зайнятість. Досвід роботи від 5 років.\n                            IMPORTANT! Relevant for 20 of February 2023. 1 position vacant. For a Long Term Project we are looking…⁠\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 135,
+  "fields": {
+    "url": "https://www.work.ua/jobs/5028331/",
+    "title": "\nMiddle Python Developer\n",
+    "company": "Wild Wild Leads",
+    "description": "\n            Повна зайнятість. Досвід роботи від 2 років. Вища освіта.\n                            Привіт! Давай знайомитися!  Мене звати Марія, і я займаюсь тим, що знаходжу крутих спеціалістів в найпрогресивнішу…⁠\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 136,
+  "fields": {
+    "url": "https://www.work.ua/jobs/5005296/",
+    "title": "\nМенеджер з управління товарними запасами (SQL, Python)\n",
+    "company": "Фора, ТОВ",
+    "description": "\n            Повна зайнятість. Досвід роботи від 1 року.\n                            Давайте знайомитись! Ми успішно розвиваємось з 2002 року. Драйв — наш стиль життя, який народжує натхнення…⁠\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 137,
+  "fields": {
+    "url": "https://www.work.ua/jobs/4439154/",
+    "title": "\nРозробник (Python, Full Stack)\n",
+    "company": "Атлас Сервис, ООО",
+    "description": "\n            Повна зайнятість. Досвід роботи від 1 року. Вища освіта.\n                            Наша компанія шукає розробника для роботи у сфері онлайн-продажів. Ви зможете взяти участь у розробці…⁠\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 138,
+  "fields": {
+    "url": "https://www.work.ua/jobs/4913105/",
+    "title": "\nMiddle Python Developer in Test (Malevich)\n",
+    "company": "Ajax Systems",
+    "description": "\n            Повна зайнятість. Також готові взяти студента. Досвід роботи від 2 років.\n                            Ajax Systems — розробник і виробник бездротових систем безпеки Ajax із можливостями розумного дому. Це…⁠\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 139,
+  "fields": {
+    "url": "https://www.work.ua/jobs/4594079/",
+    "title": "\nPHP/Python-разработчик (Back End)\n",
+    "company": "ВІ-Порт",
+    "description": "\n            Повна зайнятість. Досвід роботи від 2 років.\n                            Компания «VI•PORT» разработчик собственного проекта облачного видеонаблюдения для развития проекта ищет…⁠\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 140,
+  "fields": {
+    "url": "https://www.work.ua/jobs/4592165/",
+    "title": "\nBackend (PHP/Python) разработчик\n",
+    "company": "No name",
+    "description": "\n            Повна зайнятість. Досвід роботи від 2 років. Вища освіта.\n                            Компания «VI•PORT» разработчик собственного проекта облачного видеонаблюдения для развития проекта ищет…⁠\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 141,
+  "fields": {
+    "url": "https://www.work.ua/jobs/5026069/",
+    "title": "\nPython-програміст\n",
+    "company": "No name",
+    "description": "\n            Повна зайнятість. Також готові взяти студента, людину з інвалідністю, ветерана. Досвід роботи від 1 року.\n                            Вимоги: Знання (хоча б щось із цього) Python, C#, R, BS4, Pandas, MatPlotLib, Dplyr, GGPlot2, Selenium,…⁠\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 142,
+  "fields": {
+    "url": "https://www.work.ua/jobs/4995339/",
+    "title": "\nPython Developer (Middle)\n",
+    "company": "No name",
+    "description": "\n            Повна зайнятість. Досвід роботи від 1 року.\n                            Привіт! Ми — Product IT company, робимо додатки на Android та заливаємо їх на Google Play. Шукаємо middle…⁠\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 143,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/evo/vacancies/229710/",
+    "title": "\nMiddle Python Software Engineer (Prom.ua) в  EVO\nКиїв, віддалено\n",
+    "company": " EVO",
+    "description": "\n\t\t\t\t\tProm.ua — найбільший маркетплейс України, де продаються понад 100 млн товарів від десятків тисяч підприємців з усієї країни.\n\nНа Prom.ua:\n\n\n\nкожен покупець може знайти все, що потрібно, за найкращою ціною: від зубної щітки до культиватора для саду та городу.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 144,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/elitex/vacancies/218075/",
+    "title": "\nCustomer Software Integration Engineer в  ELITEX\nвіддалено\n",
+    "company": " ELITEX",
+    "description": "\n\t\t\t\t\tAbout ELITEX:\n\nELITEX is an IT company based in Lviv, Ukraine. Our main expertise is custom software development using JavaScript, NodeJS, Java, Python and other technologies for ambitious companies and startups, located in the US, UK, EU, Singapore, Israel etc.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 145,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/ukrainska-bronya/vacancies/229609/",
+    "title": "\nMiddle Odoo Developer в Українська Броня\n$1100–1650\nКиїв, віддалено\n",
+    "company": "Українська Броня",
+    "description": "\n\t\t\t\t\tУкраїно-американська продуктова компанія «Українська Броня» шукає Middle Odoo Developer, щоб спільно сприяти забезпеченню якісного технологічного бронезахисту й досягати нових вершин у галузі, що допомагає захищати найцінніше — людські життя.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 146,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/data-science-ua/vacancies/215037/",
+    "title": "\nComputer Vision Software Engineer в  Data Science UA\nКиїв, віддалено\n",
+    "company": " Data Science UA",
+    "description": "\n\t\t\t\t\tAbout us:  We are Data Science UA, and we are developing a Data Science community in Ukraine. Data Science UA unites all researchers, engineers, and developers around Data Science and related areas.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 147,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/chi-software/vacancies/229656/",
+    "title": "\nPython Full Stack Developer в  CHI Software\n$2000–5000\nПольща, Львів, Дніпро, віддалено\n",
+    "company": " CHI Software",
+    "description": "\n\t\t\t\t\tWe expect you to   — At least 3 years experience with Python language — Experience in complex web-applications development — Knowledge of general Python web frameworks: Django, Flask, Aiohttp, and other — Experience with SQL and RDBMS (PostgreSQL, MySQL), NoSQL databases, and...\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 148,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/django-stars/vacancies/91720/",
+    "title": "\nPython (Django) Developer в  Django Stars\nКиїв, віддалено\n",
+    "company": " Django Stars",
+    "description": "\n\t\t\t\t\tYou will work on a challenging project providing financial consultation and working between banks and end-users. It includes work on architecture to meet the product business logic and close collaboration with a client.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 149,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/lulu-software/vacancies/229634/",
+    "title": "\nDesktop Automation QA (Python) в  LULU Software\nPoland\n",
+    "company": " LULU Software",
+    "description": "\n\t\t\t\t\tRequirements:\n\n• Automation QA experience at least 2 years, on desktop — at least one year; • Python (Pytest, pywinauto); • Experience with desktop test (not C# apps); • Experience with virtual machines; • English (intermediate +).\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 150,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/playtika-ua/vacancies/229619/",
+    "title": "\nPython Developer в  Playtika\nКиїв, Дніпро, Вінниця, віддалено\n",
+    "company": " Playtika",
+    "description": "\n\t\t\t\t\tWe are looking for a Python Developer to join the Kyiv office on a full-time basis.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 151,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/vimmi-communications-ltd/vacancies/212367/",
+    "title": "\nPython Developer Senior/Lead в  Vimmi\nВінниця, віддалено\n",
+    "company": " Vimmi",
+    "description": "\n\t\t\t\t\t∙ At least 7 years of experience with Python programming language, including a strong understanding of object-oriented programming (OOP); ∙ Experience with asynchronous programming (async/await) and developing enterprise microservice architecture; ∙ Knowledge of event-driven...\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 152,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/neuroshop-tech/vacancies/229615/",
+    "title": "\nPython Backend Software Engineer в  Neuroshop tech\nКиїв\n",
+    "company": " Neuroshop tech",
+    "description": "\n\t\t\t\t\tПроєкт Neuroshop tech було засновано в 2018 році. Спеціалізація компанії — розробка та інтеграція рішень для бізнесу в сфері самообслуговування за напрямками вендінг і ритейл. На даний момент силами нашої компанії реалізовано понад 20 успішних проектів.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 153,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/ukeess-software-house/vacancies/214089/",
+    "title": "\nSenior FullStack Software Engineer (React/Python) в  UKEESS Software House\nза кордоном\n",
+    "company": " UKEESS Software House",
+    "description": "\n\t\t\t\t\tUKEESS Software House is looking for a Senior FullStack Software Engineer (React/Python) to join our ambitious team for the full-time position (in Europe).\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 154,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/innovecs/vacancies/229540/",
+    "title": "\nSenior Python Developer в  Innovecs\nКиїв, Львів\n",
+    "company": " Innovecs",
+    "description": "\n\t\t\t\t\tWe are looking for a motivated and experienced Senior Python Developer.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 155,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/traffic-squad/vacancies/229466/",
+    "title": "\nPython developer (middle, senior) в  Traffic Squad\n$1500–3000\nКиїв\n",
+    "company": " Traffic Squad",
+    "description": "\n\t\t\t\t\tTraffic Squad — українська igaming медіабаїнг компанія шукає у свою команду Python developer.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 156,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/uptarget-co/vacancies/229513/",
+    "title": "\nSenior Back-end developer в  Uptarget.co\nЧеркаси\n",
+    "company": " Uptarget.co",
+    "description": "\n\t\t\t\t\tUptarget.co is looking for an agile & talented senior developer for expanding TLV engineering team.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 157,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/inveritasoft/vacancies/227093/",
+    "title": "\nPython (Django) Developer в  inVerita\nЛьвів, віддалено\n",
+    "company": " inVerita",
+    "description": "\n\t\t\t\t\tProject description:\n\nThe product provides a complete set of tools and features to properly handle construction equipment renting processes, starting from the rent request and ending with the payment.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 158,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/fozzy/vacancies/229502/",
+    "title": "\nSenior software engineer в  TemaBit Fozzy Group\nвіддалено\n",
+    "company": " TemaBit Fozzy Group",
+    "description": "\n\t\t\t\t\tПривіт! Ми — TemaBit Fozzy Group — команда фанатів технологій, які змінюють користувацький досвід українців. Розробками нашої команди щодня користуються 65 000 співробітників Fozzy Group, тисячі партнерів та мільйони гостей «Сільпо», «Фора», Fozzy, Thrash!\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 159,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/competera/vacancies/201392/",
+    "title": "\nMiddle Software Engineer (Python) в  Competera Pricing Platform\nвіддалено\n",
+    "company": " Competera Pricing Platform",
+    "description": "\n\t\t\t\t\tCompetera uses Big Data and Deep Learning to change the way retailers do pricing. We are now looking for a Software Engineer to help us turn business ideas into best-in-class technology solutions that explicitly drive the product and the company towards their strategic direction.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 160,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/competera/vacancies/149064/",
+    "title": "\nSenior Software Engineer (Python) в  Competera Pricing Platform\nвіддалено\n",
+    "company": " Competera Pricing Platform",
+    "description": "\n\t\t\t\t\tOur tech stack:\nProgramming Languages: Python\nTech Stack: PostgreSQL, asyncio, Flask, FastAPI, aiohttp, gRPC, Apache Kafka ClickHouse, BigQuery, Apache Airflow\nInfrastructure: Kubernetes, Helm, ArgoCD, Grafana, Prometheus, Sentry, OpsGenie etc\n\n• Competera — is a Ukrainian...\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 161,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/deep-knowledge-ventures/vacancies/229484/",
+    "title": "\nParser в  Deep Knowledge Group\nвід $2000\nвіддалено\n",
+    "company": " Deep Knowledge Group",
+    "description": "\n\t\t\t\t\tDeep Knowledge Group is looking for a specialist responsible for developing multiple systems for processing unstructured text from various Web resources.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 162,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/tietoevry/vacancies/229472/",
+    "title": "\nRegular QA Automation (Python) в  Tietoevry\n$1500–3000\nКиїв, Львів, Одеса, за кордоном, віддалено\n",
+    "company": " Tietoevry",
+    "description": "\n\t\t\t\t\tTietoevry is a leading technology company with a strong Nordic heritage and global capabilities. Right now, we are looking for a Python Test Automation to join our team.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 163,
+  "fields": {
+    "url": "https://djinni.co/jobs/526948-middle-python-software-engineer-prom-ua-/",
+    "title": "\n\nMiddle Python Software Engineer (Prom.ua)\n\n",
+    "company": "\n\n          EVO\n        \n\n        Таня Сілецька,\n        Technical Recruiter\n      \n\n\n          Український продукт\n          🇺🇦\n\n\n\n\n\n      \n      \n  \n    Україна\n\n    \n\n\n\n          Product\n        \n\n\n\n          Office/Remote на ваш вибір\n· 3 роки досвіду\n",
+    "description": "\n\nProm.ua – найбільший маркетплейс України, де продаються понад 100 млн товарів від десятків тисяч підприємців з усієї країни.На Prom.ua:кожен покупець може знайти все, що потрібно, за найкращою ціною: від зубної щітки до культиватора для саду та городу.кожен підприємець може продавати товари в каталозі маркетплейса, на сайті, створеному на платформі Prom та у мобільному додатку “Prom покупки”. Prom.ua в цифрах:щодня маркетплейс відвідують 4,8 млн осібна маркетплейсі працюють понад 60 тис. компанійу каталозі 102,5 млн товарівПроєкт Prom з технічного боку:Мови програмування: Python 3, JS, GoСервіси: PostgreSQL, Redis, Kafka, ElasticSearch, ClickHouse, MongoDBІнфраструктура: Self-hosted Kubernetes, Openstack. І ще трохи деталей:Портал prom.ua працює в Kubernetes як сукупність незалежних сервісів. Налагодженні системи логування (kibana), моніторингу (prometheus/grafana), CI/CD (gitlab).Більша частина сервісів написана на Python 3.10 (синхронний та асинхронний)Інша частина на Go.Міжсервісна комунікація налагоджена через gRPC, REST, Kafka.У якості бази даних використовується PostgreSQLДля зберігання великих об’ємів даних — ClickHouse. Також MongoDB в основному для файлів (gridfs).Client side написано на JavaScript. З використанням ReactJS та інших відомих  бібліотек.  Команда:4 Developers, Team Lead, 3 QA, Product Manager Команда займається всім, що стосується просування продуктів на порталі:Кабінет продавця, що дозволяє налаштовувати рекламні кампанії, встановлювати ставки на рекламу, дивитися аналітику відображення реклами та конверсії.Ведення обліку списання грошей за конверсійні дії з рекламою: кліки, замовлення.Ранжування. Аналіз якості рекламного оголошення: конверсії в кліки і в замовлення, рейтинги продавця, кількість відмін замовлень і інші показники “якості”.Інтеграція зі сторонніми рекламними мережами для просування продуктів в мережах партнерів: google, rtbhouse, criteo. Що важливо для даної позиції:Впевнене знання мови програмування Python. Та принципів побудови асинхронних програм.Вміти будувати розподілені сервіси. Розуміти як працюють WEB-застосункиБуде плюсом вміння написання простих UI на будьякому JS фреймворку. Буде плюсом знання Go. Найближчі задачі:робота над GraphQL API адмін-панелі сервісу генерації даних для рекламних мереж;підтримка, розвиток та оптимізація модулів сервісу генерації даних для рекламних мереж; Наш підхід до процесу розробки:Технічний борг в нашому проєкті один з пріоритетів на який завжди виділяється час.Команда працює за гнучкою методологією, не боїмося підлаштовувати процеси під себеУ кожного розробника є глибоке розуміння всієї системи та інфраструктури, розробка це не тільки про код, але і про особисте зростання та культуруМи цінуємо work-life balanceНемає великої кількості мітингів Етапи інтерв’ю:Знайомство (до 30 хв)Технічне інтерв’ю (тривалість 1,5 години). Обговоримо всі важливі питання по стеку, досвіду, завданням.Фінальне інтерв’ю (тривалість 30 хвилин)\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 164,
+  "fields": {
+    "url": "https://djinni.co/jobs/526943-python-engineer/",
+    "title": "\n\nPython Engineer\n\n",
+    "company": "\n\n          ITExpert\n        \n\n        Oksana Rusavska,\n        IT recruiter\n      \n\n\n\n\n      \n      \n  \n    Україна\n\n    \n\n\n\n          Product\n        \n\n\n\n          Тільки віддалено\n· 3 роки досвіду\n· Intermediate\n",
+    "description": "\n\n        American product company is looking for a Python Engineer to work remotely.📌 About Company:  Founded in 2014, it showed rapid growth during the Covid pandemic.- This is a product company headquartered in Aventura, Florida. - Developers use their product.🤩 Team composition: 40 specialists (70+ people in total), including 8 QA and 21 developers (in C++, Python, JavaScript (Noda and AngularJS)).🤗 Organizational points:– Fully remote working, according to your local working hours,– Calls 2 times a week, there are no daily meetings,– Registration according to B2B contracts,– Payments in dollars to your bank account,– There is a budget for the purchase of equipment.✔️ Experience with Flask, SqlAlchemy is required.‼️ Experience with big data databases, interest/experience in AI (ML+DS) will be a plus.\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 165,
+  "fields": {
+    "url": "https://djinni.co/jobs/526932-back-end-developer/",
+    "title": "\n\nBack-End Developer\n\n",
+    "company": "\n\n          Outstaff Your Team\n        \n\n        Viktoriia Kulikovska,\n        Talent Acquisition\n      \n\n\n\n\n      \n      \n  \n    Україна\n(Київ)\n\n\n\n\n          Product\n        \n\n\n\n          Тільки віддалено\n· 5 років досвіду\n· Pre-Intermediate\n",
+    "description": "\n\n        Український MedTech продукт шукає прогресивного Back-End Developer. Будемо разом розвивати ресурс для керування медичними даними та працювати над новими фічами.Продукт: CRM система, яка керує медичними записами пацієнтів, включаючи фотопротоколи. Зараз проєкт знаходиться на стадії MVP.Команда: створюємо команду талановитих та амбіційних українських спеціалістів. В команді є Product Owner, наразі в пошуку Front-End та Back-End розробників.Що будемо робити:- Налагоджувати архітектуру та функціонал продукту. Важливий досвід побудови архітектури BE-частини з нуля;- Будувати стратегію проєкта, активно брейнстормити з командою;- Розробляти та вести проєкт, визначати оптимальну архітектуру.Що тобі буде потрібно:- 4-5+ роки досвіду у software development;- Глибокі знання Python 3.6+;- Досвід з Django (для частин програмного забезпечення);- Досвід роботи з базами даних (PostgreSQL, MongoDB); - Знання RESTful API;- Досвід роботи з AWS;- Redis;- Jenkins ElasticSearch.Буде плюсом:- Вища освіта з Computer Science, Computer Engineering;- Досвід роботи з Docker;- Самоорганізованість, здатність розібратись із задачами самостійно;- Вміння працювати на спільний результат;- Бажання рости та розвиватись разом із продуктом;- Почуття гумору.Ми пропонуємо:- Віддалена робота в Україні або деінде в близькому часовому поясі;- Багато цікавих тасків та спілкування з командою;- Новий проєкт без legacy code;- Прямий вплив на архітектуру, стратегію, функціонал проєкту та бренд — Made in Ukraine;- Компенсація в USD;- Бізнес години;- Адекватний, доброзичливий менеджмент та ніякої бюрократії.\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 166,
+  "fields": {
+    "url": "https://djinni.co/jobs/526878-middle-senior-back-end-developer/",
+    "title": "\n\nMiddle/Senior Back-end developer\n\n",
+    "company": "\n\n          Uptarget\n        \n\n        Yuliia Kaliuzhna,\n        Recruiting Sourcer\n      \n\n\n\n\n      \n      \n  \n    Україна\n(Черкаси)\n\n\n\n\n          Product\n        \n\n\n\n          Office/Remote на ваш вибір\n· 3 роки досвіду\n· Intermediate\n",
+    "description": "\n\n        Uptarget.co is looking for an agile & talented middle or senior developer for expanding TLV engineering team. This position will work alongside world-class security and product teams, all of whom are inspired by the use of breakthrough technologies to help safeguard fast-growing customer base around the world.Requirements:- 3+ years of experience in back-end development using Python- Deep knowledge and understanding of APIs (familiar with OWASP API Top 10 - benefit)- Practice and good knowledge of Mongo DB.- Understanding of network architecture and structure- Familiarity with various network components such as API gateways, load balancers, and SSL certificates- Experience in working with cloud environments and on-premises from both network perspective and hands-on development- Experience in developing and maintaining distributed systems using Kafka- Experience with developing large-scale, data-oriented applications.- soft skills: soul player, devoted, responsible, kind.Responsibilities:As an experienced developer, you will take a central role in building Wib’s products. You will choose and use cutting edge technologies and methodologies and will have a real impact on the company. You will be involved in every part of our core products’ lifecycle — from defining features together with PM, choosing the right tech stack and architecture to implementing infrastructure and features\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 167,
+  "fields": {
+    "url": "https://djinni.co/jobs/526865-python-developer/",
+    "title": "\n\nPython Developer\n\n",
+    "company": "\n\n          ITeams\n        \n\n        Katya Prokopenko,\n        IT-Recruiter\n      \n\n\n\n\n      \n      \n  \n    Польща,\n    Україна\n\n    \n\n\n\n          Тільки віддалено\n· 3 роки досвіду\n· Intermediate\n",
+    "description": "\n\n        We're looking for a Python Developer which will join to project to of a large telemedicine system for a network of hospitals.Required:Knowledge of PythonExperience with unit testsPolish and English, at least 1 proficientQuick learnerNice to have:Knowledge of Django,Experience with writing technical documentationKubernetes/Docker,AWS/Google Cloud/Azure\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 168,
+  "fields": {
+    "url": "https://djinni.co/jobs/526803-python-developer-middle-/",
+    "title": "\n\nPython Developer (middle)\n\n",
+    "company": "\n\n          4bill\n        \n\n        Алена Конарева,\n        Recruiter\n      \n\n\n\n\n      \n      \n  \n    Україна\n(Київ)\n\n\n\n\n          Product\n        \n\n\n\n          Office/Remote на ваш вибір\n· 2 роки досвіду\n· Intermediate\n",
+    "description": "\n\n        «Наші платежі драйвують бізнес» — це не просто гасло, це дії, які ми втілюємо в життя!4bill — це система ефективних онлайн-платежів для будь-кого — від стартапів-початківців до найбільших інтернет-бізнесів. Ми прагнемо створити універсальний платіжний сервіс та вдосконалити процес переказу та прийому коштів, зробивши його максимально легким, швидким та зручним.Краще за слова говорять цифри. На сьогодні наша вже екосистема містить десятки платіжних рішень і ще більше просто зараз перебувають у стані розробки. Нашим сервісом користуються понад 460 клієнтів із різних сфер бізнесу. Майже1 000 000 платежів проходить через 4bill щодня.І це стало можливим завдяки команді професіоналів, об'єднаних однією метою та корпоративними цінностями. Однак ми стрімко зростаємо та розвиваємося, а тому шукаємо нові таланти, які допоможуть нам трансформувати ринок платежів України.Основні завдання:- Проектування, розробка та підтримка проектів на мікросервісній архітектурі (FastApi, Flask, Aiohttp);- розробка нових модулів процесингової системи;- написання unit тестів та тестування коду разом з QA тестувальниками;- використання та проектування REST API.Наші очікування:- Впевнене володіння Python від трьох років;- Розуміння принципів асинхронного програмування;- Робота з web-фреймфорками: FastApi, Flask, Django/Tornado;- Робота з базами даних: PostgreSQL, MongoDB, Redis;- Впевнена робота з Git;- Вміння читати чужий код, розбирати, знаходити слабкі місця, пропонувати шляхи їх поліпшення, брати активну участь у розробці проектів.Буде плюсом:- Досвід роботи з інтернет-банкінгом, еквайрингом, розуміння принципів роботи банків (A2C, C2A, P2P перекази та ін.);- Linux, базові навички devops;- досвід роботи з контейнеризацією (Docker, Docker Compose, Kubernetes);- знання інших технологій та мов (наприклад, Golang, PHP, Javascript).Умови роботи:До ринкової зарплати та драйвових завдань у базовій комплектації додаються:- Медичне страхування;- курси англійської мови;- оплачувані курси підвищення кваліфікації;- оплачувану відпустку та лікарняну;- гнучкий графік роботи; можливість віддаленої роботи;- корпоративи/тимбілдінги;- офіс у центрі Києва, м. Олімпійська;- кожен день свіжі фрукти, для гарного настрою:)- офіційне працевлаштування або ФОП (на ваш розсуд);- можливість навчатися у колег та приносити в проекти свої ідеї (ми підтримаємо ваш рух не лише до цілей компанії, а й до своїх);- можливість професійного та кар'єрного зростання;- систематичний перегляд мотивації раз на пів року.\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 169,
+  "fields": {
+    "url": "https://djinni.co/jobs/526758-senior-python-developer/",
+    "title": "\n\nSenior Python Developer\n\n",
+    "company": "\n\n          Luxoft\n        \n\n        Elena Bedkina,\n        Recruiter\n      \n\n\n\n\n      \n      \n  \n    Україна\n(Київ)\n\n\n\n\n          Office/Remote на ваш вибір\n· 3 роки досвіду\n· Intermediate\n",
+    "description": "\n\n        Project Description:Applying to the position, you may join one of the most respected and fastest growing institutional investors in the world. Our client is a professional investment management organization that globally invests the funds to ensure long-term sustainability. The company invests in all major asset classes, including public equity, private equity, real estate, infrastructure and fixed-income instruments, and currently has offices in Toronto, London, Hong Kong, New York, São Paulo, Luxembourg and Mumbai.Client attracts and selects high-caliber individuals from top-tier institutions around the globe. Join our team and look forward to:• Diverse and inspiring colleagues and approachable leaders• Stimulating work in a fast-paced, intellectually challenging environment• Accelerated exposure and responsibility• Global career development opportunities• Being motivated every day by important social purpose and unshakable principles• A deeply rooted culture of Integrity, Partnership and High PerformanceIf you share a passion for performance, value a collegial and collaborative culture, and approach everything with the highest integrity, here's an opportunity.Responsibilities:In this project, you will work on a Total Funds Management platform used for managing overlay risk across the pension's holdingsManage timelines/deliverables within the team towards the successful delivery of projects. Design software solutions by interacting with portfolio managers, traders, operations staff and peers to understand requirements. Develop solutions that are in line with client's technology biases, deliver efficiency and scalability, and enable new trading activities. Provide knowledge transfer to team members and support staff through application demos, walkthroughs, and documentation. Provide end-user support to ensure minimal disruption to portfolio management and trading activities. Other duties as assigned.Mandatory Skills Description:• University degree in Engineering or Computer Science preferred.• Excellent communication with experiences working with direct users to collect/discuss complex business requirements• Excellent communication within the development team, ability to highlight risks, delays and proposing efficient solutions• Experience working in Agile / Scrum teams, experience with Agile development practices• Python FLASK, Pandas, 5+ years• Good knowledge in SQL, ability to manipulate data and write complex data queries 2+ years. Experience with AWS Aurora (PostgreSQL) would be a plus• CI/CD Jenkins, Urban Code 2+ yearsNice-to-Have Skills:• Experience in Angular JS or similar framework 2+ years• SQLAlchemy, Pylint, pynose, Gulp 2+ years• Virtualenv, Anaconda pkgs / pypi 2+ years• Knowledge in cloud-based and serverless (AWS) stack• Linux, AWS ECS, AWS Lambda, ECS Fargate\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 170,
+  "fields": {
+    "url": "https://djinni.co/jobs/526760-senior-python-developer/",
+    "title": "\n\nSenior Python developer\n\n",
+    "company": "\n\n          Luxoft\n        \n\n        Elena Bedkina,\n        Recruiter\n      \n\n\n\n\n      \n      \n  \n    Україна\n(Київ)\n\n\n\n\n          Office/Remote на ваш вибір\n· 3 роки досвіду\n· Intermediate\n",
+    "description": "\n\n        Project Description:We are looking for engineers to join the G10 Rates Risk Technology Team that is developing real time risk system. The application serves a wide variety of stakeholders such as Traders, Risk Managers and Financial Controllers and its mission is to provide accurate and timely valuations of trades and their sensitivity to market factors. The types of project undertaken by the team ranges from architecture decisions, regulatory driven, business process automation, intraday risk, to large scale risk and valuation impacting changes. This is a challenging and exciting opportunity to work within G10 Rates Risk Technology, cooperating with multiple trading desks, market risk managers and financial controllers to develop this strategically important platform.Responsibilities:- Develop Python toolsets that will help to validate batch performance problems and build possible optimization approaches- Liaise with Bank internal development teams based mainly in Poland to drive towards a world class risk application- Deliver on time regulatory commitments- Be proactive and ensure the software developed by the Team remains compliant with prescribed best practices- Properly document workMandatory Skills Description:- 4+ years of experience in any IT-related position and at least 2+ years in Python- Expertise in at least one popular Python framework (like Django, Flask or Pyramid)Nice-to-Have Skills:- Knowledge of financial derivatives pricing and risk- Templating, Pandas, Numpy- Experience of working with commercial or in-house quant pricing libraries- C# or Java knowledge\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 171,
+  "fields": {
+    "url": "https://djinni.co/jobs/526776-senior-middle-python-odoo-developer/",
+    "title": "\n\nSenior/Middle Python Odoo Developer\n\n",
+    "company": "\n\n          Turbo.ua\n        \n\n        Viktoria Struk,\n        HR generalist\n      \n\n\n\n\n      \n      \n  \n    Україна\n(Київ)\n\n\n\n\n          Product\n        \n\n\n\n          Гібридна робота\n· 2 роки досвіду\n· Intermediate\n",
+    "description": "\n\n        Привіт, майбутній колего!Тебе вітає Turbo.ua - Q-commerce компанія, яка спеціалізується на моментальній доставці продуктів харчування і товарів першої необхідності до клієнтаВимоги:- 2+ роки професійного досвіду розробки на Python;- Досвід роботи з PostgreSQL, XML, HTML, CSS, GIT і модульними тестами;- Володіння Python, HTML, CSS і JavaScript;- Знання фреймворку Odoo;- Сильні навички вирішення проблем і налагодження;- Відмінні навички спілкування та ведення документації;- Здатність працювати самостійно та в команді.Завдання:- Розробляйти та налаштовувати програми Odoo для проектів;- Розробляйти спеціальні інтеграції для Odoo;- Підтримувати цілісність і точність даних в Odoo;- Розробка та підтримка бізнес-процесів, орієнтованих на клієнтів;- Усунення несправностей і налагодження помилок у програмах Odoo;- Оптимізація існуючого коду та розробка нових функцій.\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 172,
+  "fields": {
+    "url": "https://djinni.co/jobs/515395-python-developer/",
+    "title": "\n\nPython developer\n\n",
+    "company": "\n\n          FreySoft\n        \n\n        Julia Samarina,\n        IT Recruiter\n      \n\n\n\n\n      \n      \n  \n    Азербайджан,\n    Грузія,\n    Казахстан,\n    Молдова,\n    Польща\n\n    \n\n\n\n          Тільки віддалено\n· 3 роки досвіду\n· Upper-Intermediate\n",
+    "description": "\n\n        We are looking for a Python Developer to join our friendly team. Yes, we’re hiring! We’re looking for a careful specialist whose duties include maintaining the existing product, creating new features, solving basic issues on a backlog that already exists, and doing it with pleasure. If you would like to be in the good company with our best talents, this is a great chance to do it!About FreySoft:FreySoft is a growing team of IT professionals. Our mission is to help companies to boost their businesses with digital transformation all over the world.We are open to initiatives and always attentive to your opinion.About the project:You’ll work with data security and financial crimes. In short, businesses need real-time financial crime insight to put them in control. Our customer's product is a unique real-time database that allows users to understand the risks of doing business with their partners.The database actively identifies thousands of risky events from millions of structured and unstructured data points every day. You'll be a part of a team called the Service Excellence Team. The team is working on the Risk Application with a primary focus at support and maintenance of existing applications during application migration. The main goal is to monitor the availability of applications and provide a better customer experience.As a new team member, you will be also involved in workflow automation. The details:the team consists of 4 engineers (2 Front-end developers & 2 Back-end developers), Product Owner, PM, and Engineering manager.the workflow is organized according to Kanban: the team has daily meetings and does retrospectives and sprint planning every two weeks.  the communication tools are Slack & Jira. Experience / Skills required:You have 4+ years of experience as a Python Developer;You have 3+ years of experience with DjangoYou have 2+ years of experience with Celery library & RabbitMQ;You have experience with API restful services;You have the ability to work and learn both on your own and as part of a team;Be proactive and have strong attention to detail;Be possessed of good communication skills; Have good spoken and written communication skills in English - Upper-Intermediate or higher;Nice to have:MongoDB;Python libraries - Flask, Marshmallow, MongoEngine, PyMongo, Tux, PyTest;Kafka;Kubernetes / DockerAdvantages of Working with Freysoft:Flexibility not only in the schedule but in tasks. You’ll be able to change a project or a stack within the project.We’ll not get you bored or burnout anyway!Competitive compensation depends on experience and skills.Underestimation of your impact is not allowed in our company!Real career growth both financial and professional. Our people are our biggest asset. A skillful and motivated developer can easily become a team lead, own features, or mentor Juniors if you want.Close cooperation with the team of strong professionals working in the dynamic IT environment. Remember, our people are our biggest asset and your well-being is our utmost priority.\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 173,
+  "fields": {
+    "url": "https://djinni.co/jobs/526693-middle-senior-python-engineer/",
+    "title": "\n\nMiddle/Senior Python Engineer\n\n",
+    "company": "\n\n          SpellRise Recruitment\n        \n\n        Oleh Moskovets,\n        Recruiter\n      \n\n\n\n\n      \n      \n  \n    Румунія,\n    Польща,\n    Болгарія,\n    Угорщина,\n    Чехія\n\n    \n\n\n\n          Product\n        \n\n\n\n          Тільки віддалено\n· 3 роки досвіду\n· Intermediate\n",
+    "description": "\n\n        American product company with headquarters in Miami, which in 2014 created a platform for risk management of internal information and analytics of user behavior, increasing and improving the workflow.Over 8 years, the award-winning platform has been trusted by more than 10,000 organizations worldwide. Companies of all industries use this platform to prevent insider threats and protect confidential company data.Stack: Flask, Pydantic, SQLAlchemy, FastAPIThe company offers you:- Competitive wages that increase with qualifications;- Maximum flexible schedule;- Remote work format;- Paid vacation and sick days;- Registration of employees through a b2b contract;- After 3 months, the company provides equipment for comfortable work;- Work-from-home allowance and much more.In order to get all this, you will need:- From 3 years of experience with Python;- Experience with PostgreSQL or any SQL database;- Experience with algorithms, data structures, complexity analysis, and software design;- Proficient knowledge of GIT;- The level of spoken English is Intermediate and above.It will be a plus:- Experience with flask, pydantic, sqlalchemy, fastapi;- Experience with Data warehousing / analytics solutions (Snowflake, Redshift, Tableau, Druid, etc);- Experience with ClickHouse DBMS.\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 174,
+  "fields": {
+    "url": "https://djinni.co/jobs/526744-python-developer/",
+    "title": "\n\nPython Developer\n\n",
+    "company": "\n\n          Hyperion Tech\n        \n\n        Myroslava Kukhareva,\n        IT Recruiter\n      \n\n\n\n\n      \n      \n  \n    Україна\n\n    \n\n\n\n          Тільки віддалено\n· 3 роки досвіду\n· Upper-Intermediate\n",
+    "description": "\n\n        Project: UAE, food app.Responsibilities:- Design and develop scalable, reliable, and maintainable web applications using Python FastAPI/Django;- Help with integrating the front-end elements built by your co-workers into the application; Therefore, a basic understanding of front-end technologies is necessary as well;- Integration of data storage solutions SQL and NoSQL;- Integration of multiple data sources and databases into one system;- Create and maintain the application's architecture;- Security and data protection implementation;- Data storage solution integration.Requirements:- 4+ years of technical experience with Python;- A solid comprehension of database technology such as Microsoft SQL Server, Oracle, and SQL;- Strong knowledge of UNIX/Linux environments;- Good hands-on experience and familiarity with CSS and HTML;- Proficiency in FastAPI, Django, and basic understanding of React.js;- Familiarity with DevOps practices and tools is a must;- Experience with microservices architecture and cloud technologies;- English B1+.\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 175,
+  "fields": {
+    "url": "https://djinni.co/jobs/526743-experienced-lead-python-full-stack-developer-/",
+    "title": "\n\nExperienced Lead Python/full stack Developer - lifetime opportunity\n\n$5000-7000\n",
+    "company": "\n\n          CleverCrew\n        \n\n        Dmitry Kiryukhin,\n        CEO\n      \n\n\n\n\n      \n      \n  \n    Україна\n\n    \n\n\n\n          Product\n        \n\n\n\n          Тільки віддалено\n· 5 років досвіду\n· Advanced/Fluent\n",
+    "description": "\n\n        We are looking for a person with a direct contract (not outsource/outstaff) for a digital marketplace that connects distributors and restaurants.You will work directly with the company's CEO. Key responsibilities:- As a first hire, you will help form a Ukrainian developer and QA team. You will need to participate in job interviews, confirm people skills and build a team of 5-6 people you will lead.- Help develop a strategy to rebuild the legacy product from scratch.- Oversee the development (helping where necessary) and help build a good product in a timely manner.- Help the CEO with taking care of technical-related things.- Lead the Ukrainian team and be a key communication point between them and the company's CEO.Key requirements:- At least 8 years of overall engineering experience, ideally with both backend and front-end- Proven experience in leading a team of at least 5 people- Fluent English- Solid soft skills A fantastic opportunity for an experienced person to grow even further in his career, build a team he wants to work with and bring more jobs to Ukraine.\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 176,
+  "fields": {
+    "url": "https://djinni.co/jobs/526712-american-product-company-is-looking-for-a-pyt/",
+    "title": "\n\nAmerican product company is looking for a Python Engineer\n\n",
+    "company": "\n\n          ITExpert\n        \n\n        Kateryna Korobchuk,\n        Recruiter\n      \n\n\n\n\n      \n      \n  \n    Україна,\n    Польща,\n    Румунія,\n    Словаччина,\n    Чехія\n\n    \n\n\n\n          Product\n        \n\n\n\n          Тільки віддалено\n· 5 років досвіду\n· Upper-Intermediate\n",
+    "description": "\n\n        The company develops a platform for monitoring the activities of employees or freelancers, protecting against leakage or theft of data from the company, and detecting internal and external threats.Rating on GetApp.com: 4.6/5✔️ Already used by over 2,000 companies in finance, retail, manufacturing, energy, technology, healthcare, and others.✔️ Founded in 2014, it showed rapid growth during the Covid pandemic (actively used as a product for freelancers).✔️ Experience with Flask, and SqlAlchemy is required.Experience with big data databases and interest/experience in AI (ML+DS) will be a plus.\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 177,
+  "fields": {
+    "url": "https://djinni.co/jobs/526687-senior-python-developer/",
+    "title": "\n\nSenior Python developer\n\n",
+    "company": "\n\n          Luxoft\n        \n\n        Yulia Kotygoroshko,\n        Recruiter\n      \n\n\n\n\n      \n      \n  \n    Україна\n(Київ)\n\n\n\n\n          Гібридна робота\n· 5 років досвіду\n· Upper-Intermediate\n",
+    "description": "\n\n        Project Description:We are looking for engineers to join the G10 Rates Risk Technology Team that is developing real time risk system. The application serves a wide variety of stakeholders such as Traders, Risk Managers and Financial Controllers and its mission is to provide accurate and timely valuations of trades and their sensitivity to market factors. The types of project undertaken by the team ranges from architecture decisions, regulatory driven, business process automation, intraday risk, to large scale risk and valuation impacting changes. This is a challenging and exciting opportunity to work within G10 Rates Risk Technology, cooperating with multiple trading desks, market risk managers and financial controllers to develop this strategically important platform.Responsibilities:- Develop Python toolsets that will help to validate batch performance problems and build possible optimization approaches- Liaise with Bank internal development teams based mainly in Poland to drive towards a world class risk application- Deliver on time regulatory commitments- Be proactive and ensure the software developed by the Team remains compliant with prescribed best practices- Properly document workMandatory Skills Description:- 4+ years of experience in any IT-related position and at least 2+ years in Python- Expertise in at least one popular Python framework (like Django, Flask or Pyramid)Nice-to-Have Skills:- Knowledge of financial derivatives pricing and risk- Templating, Pandas, Numpy- Experience of working with commercial or in-house quant pricing libraries- C# or Java knowledgeLanguages:English: B1 Intermediate\n      \n\n\n          Детальніше\n        \n\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 178,
+  "fields": {
+    "url": "https://rabota.ua/company125625/vacancy9395947",
+    "title": " Начальник Центру обробки та прогнозування даних ",
+    "company": "Південний, Акционерный Банк",
+    "description": " Південний, Акционерный Банк ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 179,
+  "fields": {
+    "url": "https://rabota.ua/company966/vacancy9409124",
+    "title": " Analyst (стажування) ",
+    "company": "robota.ua",
+    "description": " robota.ua ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 180,
+  "fields": {
+    "url": "https://rabota.ua/company966/vacancy9409099",
+    "title": " Product Analyst (Intern) ",
+    "company": "robota.ua",
+    "description": " robota.ua ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 181,
+  "fields": {
+    "url": "https://rabota.ua/company3235793/vacancy9404530",
+    "title": " Senior Hardware developer (Automation team) ",
+    "company": "Ajax Systems",
+    "description": " Ajax Systems ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 182,
+  "fields": {
+    "url": "https://rabota.ua/company277662/vacancy9390419",
+    "title": " Data Engineer, Music Distribution Platform ",
+    "company": "DataArt",
+    "description": " DataArt ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 183,
+  "fields": {
+    "url": "https://rabota.ua/company1066900/vacancy9411147",
+    "title": " Data Scientist/Machine Learning інженер ",
+    "company": "BSG",
+    "description": " зп за результатами співбесіди ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 184,
+  "fields": {
+    "url": "https://rabota.ua/company9883904/vacancy9266257",
+    "title": " Data Analyst (Marketing) ",
+    "company": "PIN-UP.BUSINESS",
+    "description": " PIN-UP.BUSINESS ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 185,
+  "fields": {
+    "url": "https://rabota.ua/company1590638/vacancy9390026",
+    "title": " DevOps Team Lead ",
+    "company": "EvoPlay",
+    "description": " EvoPlay ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 186,
+  "fields": {
+    "url": "https://rabota.ua/company794/vacancy9410612",
+    "title": " Senior/Lead Software Engineer (IRC162159) ",
+    "company": "GlobalLogic Ukraine",
+    "description": " GlobalLogic Ukraine ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2023-02-20"
+  }
+},
+{
+  "model": "scraping.errors",
+  "pk": 164,
+  "fields": {
+    "timestamp": "2023-02-20",
+    "data_errors": {
+      "user_data": [
+        {
+          "city": "Lviv",
+          "email": "dim8035@gmail.com",
+          "language": "Rust"
+        },
+        {
+          "city": "Kiev",
+          "email": "dim8035@gmail.com",
+          "language": "C++"
+        },
+        {
+          "city": "Kiev",
+          "email": "dim8035@gmail.com",
+          "language": "Scala"
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://www.work.ua/jobs-kyiv-python/",
+          "title": "div does not exists"
+        }
+      ]
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 1,
+  "fields": {
+    "city": 1,
+    "language": 1,
+    "url_data": {
+      "work_ua": "https://www.work.ua/jobs-kyiv-python/",
+      "rabota_ua": "https://rabota.ua/ua/zapros/python/%D0%BA%D0%B8%D0%B5%D0%B2",
+      "dou_ua": "https://jobs.dou.ua/vacancies/?category=Python",
+      "djinni_co": "https://djinni.co/jobs/?primary_keyword=Python"
+    }
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$GxWlDivxztCKsalWRsV7RH$tdCltQT124plyZUdytl209jcxonaJtQYflgxttDgHf0=",
+    "last_login": "2023-02-23T10:31:35.412Z",
+    "email": "dim8035@gmail.com",
+    "is_active": true,
+    "is_admin": true,
+    "city": 1,
+    "language": 1,
+    "send_email": true
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$NsnlK9Pv2zEbarGLMzroHe$LD+zRPQRQAs3ixrFK8uw7ZF1f4ZJp0fdvwZV36c/smU=",
+    "last_login": null,
+    "email": "ts@gmail.com",
+    "is_active": true,
+    "is_admin": false,
+    "city": 1,
+    "language": 1,
+    "send_email": true
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$W9OSA5cxNINiXdcUte4CGd$+gXGhd44PCNjTZAcRd9Be4HObgbNnxZmQjJzyfa0Eis=",
+    "last_login": null,
+    "email": "tes1@gmail.com",
+    "is_active": true,
+    "is_admin": false,
+    "city": 1,
+    "language": 3,
+    "send_email": true
+  }
+}
+]
