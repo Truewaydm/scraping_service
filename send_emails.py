@@ -51,7 +51,7 @@ if users_dict:
             msg.attach_alternative(_html, "text/html")
             msg.send()
 
-query_set_errors = Errors.filter(timestamp=today)
+query_set_errors = Errors.objects.filter(timestamp=today)
 subject = ''
 text_content = ''
 to = ADMIN_USER
