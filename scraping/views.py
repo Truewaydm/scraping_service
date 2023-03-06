@@ -1,6 +1,7 @@
 from django.core.paginator import Paginator
 from django.shortcuts import render, get_object_or_404
-from django.views.generic import DetailView, ListView
+from django.urls import reverse_lazy
+from django.views.generic import DetailView, ListView, CreateView
 
 from .forms import FindForm
 from .models import Vacancy
@@ -74,3 +75,10 @@ class VList(ListView):
                 list_filter['language__slug'] = language
             query_set = Vacancy.objects.filter(**list_filter).select_related('city', 'language')
         return query_set
+
+
+class VCreate(CreateView):
+    model = Vacancy
+    fields = '__all__'
+    template_name = 'scraping/create.html'
+    success_url = reverse_lazy('home')
