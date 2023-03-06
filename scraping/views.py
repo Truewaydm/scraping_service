@@ -46,4 +46,4 @@ def v_detail(request, pk=None):
 class VDetail(DetailView):
     queryset = Vacancy.objects.all()
     template_name = 'scraping/detail.html'
-    # context_object_name = 'object'
+    context_object_name = 'object'
