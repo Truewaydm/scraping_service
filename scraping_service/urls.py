@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from scraping.views import home_view, list_view, v_detail, VDetail
+from scraping.views import home_view, list_view, v_detail, VDetail, VList
 
 from scraping_service.views import home
 
@@ -23,6 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home_view, name='home'),
     path('list/', list_view, name='list'),
+    path('list/', VList.as_view(), name='list'),
     path('accounts/', include(('accounts.urls', 'accounts'))),
     path('detail/<int:pk>/', v_detail, name='detail'),
     path('detail/<int:pk>/', VDetail.as_view(), name='detail'),
