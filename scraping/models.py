@@ -48,7 +48,7 @@ class Vacancy(models.Model):
     title = models.CharField(max_length=250, verbose_name='Vacancy title')
     company = models.CharField(max_length=250, verbose_name='Company')
     description = models.TextField(verbose_name='Description vacancy')
-    city = models.ForeignKey('City', on_delete=models.CASCADE, verbose_name='City')
+    city = models.ForeignKey('City', on_delete=models.CASCADE, verbose_name='City', related_name='vacancies')
     language = models.ForeignKey('Language', on_delete=models.CASCADE, verbose_name='Language')
     timestamp = models.DateField(auto_now_add=True)
 
