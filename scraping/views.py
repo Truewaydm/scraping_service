@@ -66,6 +66,7 @@ class VList(ListView):
         return context
 
     def get_queryset(self):
+        global query_set
         city = self.request.GET.get('city')
         language = self.request.GET.get('language')
         if city or language:
@@ -74,6 +75,8 @@ class VList(ListView):
                 list_filter['city__slug'] = city
             if language:
                 list_filter['language__slug'] = language
+                # https://docs.djangoproject.com/en/4.1/ref/models/querysets/#select-related
+                # https://django.fun/ru/articles/tutorials/select_related-i-prefetch_related-v-django/
             query_set = Vacancy.objects.filter(**list_filter).select_related('city', 'language')
         return query_set
 
